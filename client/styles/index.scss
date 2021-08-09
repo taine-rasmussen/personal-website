@@ -8,15 +8,37 @@ body {
 
 // ---- Menu ----
 .menuContainer{
-
+  border: 1px solid black;
+  height: 100vh;
+  margin: 6rem;
+  display: flex;
+  position: relative;
+  background-color: brown;
 }
 
 .menuHeaderWrapper{
-
+  margin-top: -3.rem;
 }
 
 .menuHeader{
   text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
+#menuHeaderStyling:hover{
+  color: rgb(255, 255, 255);
+}
 // ---- Menu ----
+// -------------------
+// ---- global home btn ----
+.globalHomeBtn{
+  background-color: brown;
+
+}
+
+.globalHomeBtn:hover{
+background-color: brown;
+}
+// ---- global home btn ----
