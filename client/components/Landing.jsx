@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Landing = () => {
@@ -6,7 +7,7 @@ const Landing = () => {
     return( 
         <>
             <h1>Taine Rasmussen</h1>
-            <button>Enter site</button>
+            <Link to='/menu'><button>Enter site</button></Link>
         </>
     )
 }
