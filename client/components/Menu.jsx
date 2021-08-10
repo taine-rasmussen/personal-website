@@ -21,7 +21,7 @@ const Menu = () => {
                     <h1 id='menuHeaderStyling'>About</h1>
                 </Link>
                 <Link to='/' className='menuHeader'>
-                    <button className='globalHomeBtn'>Home</button>
+                    <button>Home</button>
                 </Link>
             </div>   
         </div>

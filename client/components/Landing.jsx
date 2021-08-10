@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom'
 const Landing = () => {
 
     return( 
-        <>
-            <h1>Taine Rasmussen</h1>
-            <Link to='/menu'><button>Enter site</button></Link>
-        </>
+        <div className='landingContainer'>
+            <h1 className='landingHeader'>Taine Rasmussen</h1>
+            <Link to='/menu'>
+                <button className='landingBtn'>Enter site</button>
+            </Link>
+        </div>
     )
 }
 
