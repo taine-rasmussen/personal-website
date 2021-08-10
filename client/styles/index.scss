@@ -3,19 +3,34 @@
 html, 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #FFF5EB;
 }
 
 // ---- Landing ----
 .landingContainer{
-  border: 1px black solid;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  background-color: #F4C7AB;
+  justify-content: center;
+  margin: 6rem;
 }
 
-.landingheader{
-
+.landingHeader{
+  text-decoration: none;
+  color: black;
+  font-size: 5rem;
+  font-weight: 700;
+  position: relative;
+  margin-top: 30vh;
 }
 
 .landingBtn{
-  
+border: black 10px solid;
+}
+
+.landingBtn:hover{
+  background-color: brown;
 }
 
 // ---- Landing ----
