@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
+//Components
+import Footer from './Footer'
+
 const Menu = () => {
 
 
@@ -24,6 +27,7 @@ const Menu = () => {
                     <button>Home</button>
                 </Link>
             </div>   
+           <Footer />
         </div>
     )
 }
