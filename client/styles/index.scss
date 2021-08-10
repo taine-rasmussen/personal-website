@@ -1,24 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
 html, 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Reenie Beanie', cursive;
+  background-color: #FFF5EB;
 }
 
 // ---- Landing ----
 .landingContainer{
-  border: 1px black solid;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  background-color: #F4C7AB;
+  justify-content: center;
+  margin: 6rem;
 }
 
-.landingheader{
+.landingHeaderWrapper{
+  margin-left: -23rem;
+}
 
+.landingHeader{
+  text-decoration: none;
+  color: black;
+  font-size: 9rem;
+  font-weight: 700;
+  position: relative;
+  margin-top: 22vh;
+  margin-left: 0rem;
+  margin-bottom: 28rem;
+}
+
+.landingBtnWrapper{
+  margin-bottom: 45rem;
+  margin-top: 28rem;
+  margin-left: -30rem;
+  position: relative;
 }
 
 .landingBtn{
-  
+  padding: 10px;
+  background-color: #FFF5EB;
 }
 
+.landingBtn:hover{
+  background-color: brown;
+}
 // ---- Landing ----
+// ---------------
 // ---- Menu ----
 .menuContainer{
   border: 1px solid black;
@@ -46,7 +75,7 @@ body {
 }
 // ---- Menu ----
 // -------------------
-// ---- global home btn ----
+// ---- Global Home Btn ----
 .globalMenuBtn{
   background-color: coral;
 }
@@ -54,4 +83,4 @@ body {
 .globalMenuBtn:hover{
   background-color: rgb(0, 0, 0);
 }
-// ---- global home btn ----
+// ---- Global Home Btn ----
