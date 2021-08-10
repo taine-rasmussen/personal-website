@@ -13,6 +13,8 @@ import About from './About'
 
 function App () {
 
+  console.log('Hi ;)')
+
   return (
       <div className='app'>
         <Route exact path='/' component={Landing} />
