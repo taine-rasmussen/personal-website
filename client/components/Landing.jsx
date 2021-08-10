@@ -6,10 +6,15 @@ const Landing = () => {
 
     return( 
         <div className='landingContainer'>
-            <h1 className='landingHeader'>Taine Rasmussen</h1>
-            <Link to='/menu'>
-                <button className='landingBtn'>Enter site</button>
-            </Link>
+            <div className='landingHeaderWrapper'>
+                <h1 className='landingHeader'>Taine Rasmussen</h1>
+            </div>
+
+            <div className='landingBtnWrapper'>    
+                <Link to='/menu'>
+                    <button className='landingBtn'>Enter site</button>
+                </Link>
+            </div>    
         </div>
     )
 }
