@@ -23,9 +23,6 @@ const Menu = () => {
                 <Link to='/about' className='menuHeader'>
                     <h1 id='menuHeaderStyling'>About</h1>
                 </Link>
-                <Link to='/' className='menuHeader'>
-                    <button>Home</button>
-                </Link>
             </div>   
            <Footer />
         </div>
