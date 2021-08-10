@@ -6,7 +6,9 @@ const About = () => {
     return(
         <> 
             <h1>About working</h1>
-            <Link to='/menu'><button>Menu</button></Link>
+            <Link to='/menu'>
+                <button className='globalMenuBtn'>Menu</button>
+            </Link>
         </> 
     )
 }

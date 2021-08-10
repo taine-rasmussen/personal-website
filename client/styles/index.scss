@@ -5,18 +5,53 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+// ---- Landing ----
+.landingContainer{
+  border: 1px black solid;
+}
 
-// ---- Menu ----
-.menuContainer{
+.landingheader{
 
 }
 
-.menuHeaderWrapper{
+.landingBtn{
+  
+}
 
+// ---- Landing ----
+// ---- Menu ----
+.menuContainer{
+  border: 1px solid black;
+  height: 100vh;
+  margin: 6rem;
+  display: flex;
+  position: relative;
+  background-color: brown;
+}
+
+.menuHeaderWrapper{
+  margin-top: -3rem;
 }
 
 .menuHeader{
   text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: 400;
+  position: relative;
 }
 
+#menuHeaderStyling:hover{
+  color: rgb(255, 255, 255);
+}
 // ---- Menu ----
+// -------------------
+// ---- global home btn ----
+.globalMenuBtn{
+  background-color: coral;
+}
+
+.globalMenuBtn:hover{
+  background-color: rgb(0, 0, 0);
+}
+// ---- global home btn ----

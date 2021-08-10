@@ -5,8 +5,10 @@ const Travel = () => {
 
     return(
         <> 
-        <h1>Travel working</h1>
-        <Link to='/menu'><button>Menu</button></Link>
+            <h1>Travel working</h1>
+            <Link to='/menu'>
+                <button className='globalMenuBtn'>Menu</button>
+            </Link>
         </>
     )
 }
