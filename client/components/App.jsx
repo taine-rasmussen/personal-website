@@ -1,15 +1,30 @@
 import React from 'react'
-import { connect } from 'react-redux'
+import { Route } from 'react-router-dom'
 
-function App (props) {
+
+
+//Components
+import Landing from './Landing'
+import Menu from './Menu'
+import Fashion from './Fashion'
+import Travel from './Travel'
+import Documentary from './Documentary'
+import About from './About'
+
+function App () {
+
+  console.log('Please hire me :)')
 
   return (
-    <>
       <div className='app'>
-        <h1>Welcome to our music database</h1>
+        <Route exact path='/' component={Landing} />
+        <Route exact path='/menu' component={Menu} />
+        <Route exact path='/fashion' component={Fashion} />
+        <Route exact path='/travel' component={Travel} />
+        <Route exact path='/documentary' component={Documentary} />
+        <Route exact path='/about' component={About} />
       </div>
-    </>
   )
 }
 
-export default connect(mapStateToProps)(App)
+export default App
