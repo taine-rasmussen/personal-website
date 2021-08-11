@@ -8,6 +8,11 @@ import Footer from './Footer'
 const Menu = () => {
 
 
+// TODO
+// Change hit boxes of headings for hover effect to be only over text
+
+
+
     return(
         <div className='menuContainer'>
             <div className='menuHeaderWrapper'>
