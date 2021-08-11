@@ -29,7 +29,7 @@ const Menu = () => {
                     <h1 id='menuHeaderStyling'>About</h1>
                 </Link>
             </div>   
-           <Footer />
+            <Footer />
         </div>
     )
 }

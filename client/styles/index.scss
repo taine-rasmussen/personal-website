@@ -79,6 +79,8 @@ body {
 #menuHeaderStyling:hover{
   color: rgb(255, 255, 255);
 }
+
+
 // ---- Menu ----
 // -------------------
 // ---- Global Home Btn ----
@@ -91,6 +93,27 @@ body {
 }
 // ---- Global Home Btn ----
 // ------------------------
+// ---- Fashion ----
+.fashionContainer{
+  border: 3px solid black;
+  display: flex;
+
+}
+
+.fashionHeader{
+  border-bottom: 4px solid black;
+  font-size: 8rem;
+  margin-top: 0rem;
+  margin-bottom: 53rem;
+}
+
+
+.fashionImgWrapper{
+  border: 1px solid brown;
+margin-left: 5.4rem;
+}
+// ---- Fashion ----
+// ----------------
 // ---- Footer ----
 .center {
   display: table;
@@ -136,10 +159,36 @@ body {
   opacity: 1;
 }
 // ---- Footer ----
+// ---------------
+// ---- NavBar ----
+.fashionNavWrapper{
+  border-right: 4px solid black;
+  margin-top: 8rem;
+  margin-left: -18rem;
+  padding-right: 3.5rem;
+  padding-left: 2rem;
+
+}
+
+.navHeader{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
 
 
+}
 
+.navHeader:hover{
+  color: #FFF5EB;
+}
 
+#navHeaderStyling{
+
+}
+
+// ---- NavBar ----
+// ---------------------
+// ---- Landing page Btn ----
 .button {
 	
 	--offset: 8px;
@@ -217,6 +266,7 @@ body {
 	}
 	
 }
+// ---- Landing page Btn ----
 
 
 

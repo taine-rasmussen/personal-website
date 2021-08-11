@@ -13,7 +13,7 @@ import About from './About'
 
 function App () {
 
-  console.log('Hi ;)')
+  console.log('Please hire me :)')
 
   return (
       <div className='app'>
