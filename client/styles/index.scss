@@ -18,8 +18,15 @@ body {
 }
 
 .landingHeaderWrapper{
-  margin-left: -23rem;
+  margin-left: -18rem;
+  animation: fadein 2.5s;
 }
+
+@keyframes fadein {
+  from { opacity: 0.1}
+  to   { opacity: 1}
+}
+
 
 .landingHeader{
   text-decoration: none;
