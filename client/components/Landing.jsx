@@ -12,7 +12,11 @@ const Landing = () => {
 
             <div className='landingBtnWrapper'>    
                 <Link to='/menu'>
-                    <button className='landingBtn'>Enter site</button>
+                    <button className="button">
+                        Enter Site
+                        <div className="button__horizontal"></div>
+                        <div className="button__vertical"></div>
+                    </button>
                 </Link>
             </div>    
         </div>
