@@ -4,6 +4,17 @@ import { Link } from 'react-router-dom'
 //Components
 import Footer from './Footer'
 
+//Parallax? scrolling on menu
+// Menu as is atm - container colour might need to change
+// Body background to be the same as all menu comp
+// Remove "enter site" Btn with parallax scroll
+// Add random animation guide the user to scroll down
+// On scroll menu component moves up and replaces landing comp
+// Menu and landing container to be the same size so fit is perfect
+// nice
+
+
+
 
 const Fashion = () => {
 
