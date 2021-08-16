@@ -10,7 +10,6 @@ import Fashion from './Fashion'
 import Travel from './Travel'
 import Documentary from './Documentary'
 import About from './About'
-import Final from './Final'
 
 
 function App () {
@@ -25,7 +24,6 @@ function App () {
         <Route exact path='/travel' component={Travel} />
         <Route exact path='/documentary' component={Documentary} />
         <Route exact path='/about' component={About} />
-        <Route exact path='/final' component={Final} />
       </div>
   )
 }
