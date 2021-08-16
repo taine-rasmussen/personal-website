@@ -8,11 +8,11 @@ import App from './components/App'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-  <ParallaxProvider>  
-    <Router> 
-      <App />
-    </Router>
-  </ParallaxProvider> , 
+    <ParallaxProvider>  
+      <Router> 
+        <App />
+      </Router>
+    </ParallaxProvider> , 
     document.getElementById('app')
   )
 })

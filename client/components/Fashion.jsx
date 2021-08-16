@@ -13,6 +13,8 @@ import Footer from './Footer'
 // Menu and landing container to be the same size so fit is perfect
 // nice
 
+// Nav buttons link back to landing page but with auto scroll to menu sections??
+
 
 
 

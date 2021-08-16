@@ -14,8 +14,8 @@ const Menu = () => {
 
 
     return(
-        <div className='menuContainer'>
-            <div className='menuHeaderWrapper'>
+        <div>
+            <div>
                 <Link to='/fashion' className='menuHeader'>
                     <h1 id='menuHeaderStyling'>Fashion</h1>
                 </Link>

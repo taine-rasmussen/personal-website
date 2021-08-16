@@ -8,75 +8,31 @@ body {
 
 // ---- Landing ----
 .landingContainer{
-  height: 100vh;
-  display: flex;
-  position: relative;
-  background-color: #F4C7AB;
-  justify-content: center;
-  margin: 6rem;
-  border-radius: 20px;
+  
 }
 
 .landingHeaderWrapper{
-  margin-left: -18rem;
-  // animation: landingHeadingWrapper 2.5s;
-  animation: fadein 2.5s;
+display: flex;
+min-height: 100vh;
+margin: 6rem;
+background-color: brown;
 }
 
-@keyframes fadein {
-  from { opacity: 0.1}
-  to   { opacity: 1}
-}
-
-// @keyframes landingHeadingWrapper {
-//   0% {
-//       transform: translateY(-100%);
-//   }
-//   100% {
-//       transform: translateY(0);
-//   }
-// }
-
-.landingHeader{
-  text-decoration: none;
-  color: black;
-  font-size: 9rem;
-  font-weight: 700;
-  position: relative;
-  margin-top: 22vh;
-  margin-left: 0rem;
-  margin-bottom: 28rem;
-}
-
-.landingBtnWrapper{
-  margin-bottom: 45rem;
-  margin-top: 28rem;
-  margin-left: -30rem;
-  position: relative;
-}
-
-.landingBtn{
-  padding: 10px;
-  background-color: #FFF5EB;
-}
-
-.landingBtn:hover{
+.landingMenuScroll{
+  min-height: 50vh;
+  margin: 6rem;
   background-color: brown;
 }
+
 // ---- Landing ----
 // ---------------
 // ---- Menu ----
 .menuContainer{
-  height: 100vh;
-  margin: 6rem;
-  display: flex;
-  position: relative;
-  background-color: brown;
-  border-radius: 15px;
+
 }
 
 .menuHeaderWrapper{
-  margin-top: -3rem;
+
 }
 
 .menuHeader{
