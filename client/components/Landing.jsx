@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 
 const Landing = () => {
@@ -14,10 +15,12 @@ const Landing = () => {
                     <h3 className='landing-subheader'>Full Stack Software Developer & Photographer</h3>
                 </div>
 
-                <div className='landing-arrow-container'>
-                    <div class='landing-arrow arrow-first'></div>
-                    <div class='landing-arrow arrow-second'></div>
-                </div>
+                <Link to='About' smooth={true} duration={2000}>
+                    <div className='landing-arrow-container'>
+                        <div class='landing-arrow arrow-first'></div>
+                        <div class='landing-arrow arrow-second'></div>
+                    </div>
+                </Link>    
             </section>
         </>
     )

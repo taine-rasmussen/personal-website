@@ -42,6 +42,7 @@
     "express": "^4.17.1",
     "knex": "^0.21.12",
     "pg": "^8.5.1",
+    "react-scroll": "^1.8.3",
     "react-scroll-parallax": "^2.4.0",
     "superagent": "^6.1.0"
   },
