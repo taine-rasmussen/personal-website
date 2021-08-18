@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
-  background-color: #eee9dd00;
+  background-color: #F8F0E3;
 }
+
+// Colours:
+// Headers: #1B4332
+// Sub Headers: #081C15
+// Background colour: #F8F0E3
+
+
+
 
 // ---- Landing ----
 .landing-container{
-  background-color: #eee9dd;
+  background-color: #F8F0E3;
   height: 100vh;
   max-width: 100vw;
   display: flex;
@@ -21,6 +29,7 @@ body{
 .landing-header{
  font-size: 5rem;
  margin-top: 15rem;
+ color: #1B4332;
 }
 
 .landing-subheader{
@@ -28,6 +37,7 @@ body{
   font-size: 1rem;
   margin-left: 8rem;
   margin-top: -3rem;
+  color: #081C15;
 }
 
 $ani-speed: 2s;
@@ -57,20 +67,20 @@ $ani-delay: 1s;
     background: black;
     content: '';
     display: block;
-    height: 3px; 
+    height: 2px; 
     position: absolute;
-        top: 0;
-        left: 0;
-    width: 30px;
+    top: 0;
+    left: 0;
+    width: 20px;
 }
 
 .landing-arrow:before {
-    transform: rotate(45deg) translateX(-23%);
+    transform: rotate(45deg) translateX(-21%);
     transform-origin: top left;
 }
 
 .landing-arrow:after {
-    transform: rotate(-45deg) translateX(23%);
+    transform: rotate(-45deg) translateX(21%);
     transform-origin: top right;
 }
 
