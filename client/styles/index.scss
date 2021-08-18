@@ -13,9 +13,21 @@ body{
   justify-content: center;
 }
 
+.landing-header-conatiner{
+  display: flex;
+  justify-content: center;
+}
+
 .landing-header{
  font-size: 5rem;
  margin-top: 15rem;
+}
+
+.landing-subheader{
+  font-style: italic;
+  font-size: 1rem;
+  margin-left: 8rem;
+  margin-top: -3rem;
 }
 
 $ani-speed: 2s;
@@ -24,6 +36,7 @@ $ani-delay: 1s;
 
 .landing-arrow {
     margin-top: 5rem;
+    margin-left: -2.5rem;
     opacity: 10;
     position: absolute;
     left: 50%;
@@ -41,7 +54,7 @@ $ani-delay: 1s;
 
 .landing-arrow:before,
 .landing-arrow:after {
-    background: #cc9164;
+    background: black;
     content: '';
     display: block;
     height: 3px; 
@@ -77,8 +90,17 @@ $ani-delay: 1s;
 
 
 // ---- Landing ----
+// ---- About ----
 
+.about-container{
+  background-color: burlywood;
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
 
+// ---- About ----
 // ---- Footer ----
 .center {
   display: table;
