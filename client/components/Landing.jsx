@@ -1,25 +1,27 @@
 import React from 'react'
-import { Parallax } from 'react-scroll-parallax';
 
 
-import Menu from './Menu'
+import Footer from './Footer'
 
 const Landing = () => {
 
+        // ToDo
+        // Once second component is built will need to link arrow to smooth scroll to component
+
     return( 
-        <div className='landingContainer'>
-        
-        <div className='landingHeaderWrapper'>
-                <h1 className='landingHeader'>Taine Rasmussen</h1>
-            </div>    
+        <>
+            <section className='landing-container'>
+                <h1 className='landing-header'>Taine Rasmussen</h1>
 
-
-            <div className='landingMenuScroll'>
-                <Parallax  y={[100, 100]}>
-                    <Menu />
-                </Parallax>  
+            <div className='landing-arrow-container'>
+                 <div class='landing-arrow arrow-first'></div>
+                 <div class='landing-arrow arrow-second'></div>
             </div>
-        </div>
+              
+            </section>
+
+            <Footer />
+        </>
     )
 }
 
