@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-fullstack",
+  "name": "portfolio",
   "version": "2.0.0",
   "main": "server/index.js",
   "license": "MIT",
@@ -38,9 +38,11 @@
     ]
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "express": "^4.17.1",
     "knex": "^0.21.12",
     "pg": "^8.5.1",
+    "react-scroll": "^1.8.3",
     "react-scroll-parallax": "^2.4.0",
     "superagent": "^6.1.0"
   },
