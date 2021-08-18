@@ -8,8 +8,14 @@ const Landing = () => {
 
     return( 
         <div>
-            <h1>Starting again wooooooooö</h1>
-            <Footer />
+
+
+                <h1>Starting again wooooooooö</h1>
+
+            <div data-aos="fade-down">
+                <h3>test</h3>
+            </div>
+                <Footer />
         </div>
     )
 }
