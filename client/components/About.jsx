@@ -7,11 +7,19 @@ const About = () => {
         <> 
             <section className='about-container'>
 
-                <div className='about-header'>
+                <div className='about-header'
+                    data-aos='fade-down'
+                    data-aos-duration={1500}
+                    data-aos-delay={100}
+                >
                     <h1 className='about-header-text'>About Taine</h1>
                 </div>
 
-                <div className='about-text-container'>
+                <div      
+                    className='about-text-container'               data-aos="fade-up"
+                    data-aos-duration={1500}
+                    data-aos-delay={100}
+                >
                     <div className='about-left-text'>
                         <p className='about-text'>
                         I am a software developer with a desire and passion for all things creative, from design, photography, music and problem solving. Channeling all I have learnt from these interests and hobbies into my journey through Enspiral Dev Academy and into the tech industry has been the best decision I have ever made.
