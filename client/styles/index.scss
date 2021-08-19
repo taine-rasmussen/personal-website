@@ -8,7 +8,7 @@ body{
 // Headers: #1B4332
 // Sub Headers: #081C15
 // Landing Page Background colour: #F8F0E3
-//
+
 
 
 
@@ -104,23 +104,64 @@ $ani-delay: 1s;
 // ---- About ----
 
 .about-container{
-  background-color: burlywood;
+  background-color: #1B4332;
+  height: 100vh;
+  max-width: 100vw;
+
+
+}
+
+.about-header{
+  display: flex;
+  justify-content: center;
+}
+
+.about-header-text{
+  color: #F8F0E3;
+  font-size: 3.5rem;
+}
+
+.about-text-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.about-left-text{
+  margin: 5vw;
+}
+
+.about-right-text{
+  margin: 5vw;
+  margin-top: 13rem;
+}
+
+.about-text{
+  color: #F8F0E3;
+  font-size: 1.3rem;
+}
+// ---- About ----
+// ---- Photo ----
+
+.photo-container{
+  background-color: #F8F0E3;
   height: 100vh;
   max-width: 100vw;
   display: flex;
   justify-content: center;
 }
 
-// ---- About ----
-// ---- Footer ----
-.center {
-  display: table;
-  width: 50%;
-  height: 5vh;
-  margin-top: 41rem;
-  margin-left: 13rem;
+.photo-header{
+  font-size: 5rem;
+  margin-top: 15rem;
+  color: #1B4332;
 }
 
+// ---- Photo ----
+// ---- Social Links ----
+.center {
+
+}
 #social-test {
   display: table-cell;
   vertical-align: middle;
@@ -158,4 +199,5 @@ $ani-delay: 1s;
 .social:hover > li:hover {
   opacity: 1;
 }
-// ---- Footer ----
+// ---- Social Links ----
+
