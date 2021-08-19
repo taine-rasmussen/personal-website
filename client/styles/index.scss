@@ -141,19 +141,27 @@ $ani-delay: 1s;
   font-size: 1.3rem;
 }
 // ---- About ----
-// ---- Footer ----
+// ---- Photo ----
+
+.photo-container{
+  background-color: #F8F0E3;
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-header{
+  font-size: 5rem;
+  margin-top: 15rem;
+  color: #1B4332;
+}
+
+// ---- Photo ----
+// ---- Social Links ----
 .center {
 
-
-
-
-
-
-  
-
 }
-// ---- About ----
-// ---- Social Links ----
 #social-test {
   display: table-cell;
   vertical-align: middle;
