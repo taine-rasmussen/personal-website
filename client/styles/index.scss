@@ -105,9 +105,9 @@ $ani-delay: 1s;
 
 .about-container{
   background-color: #1B4332;
-  height: 100vh;
+  height: 75vh;
   max-width: 100vw;
-
+  border-radius: 15px;
 
 }
 
@@ -129,11 +129,12 @@ $ani-delay: 1s;
 
 .about-left-text{
   margin: 5vw;
+  margin-top: -1rem;
 }
 
 .about-right-text{
   margin: 5vw;
-  margin-top: 13rem;
+  margin-top: 10rem;
 }
 
 .about-text{
