@@ -29,7 +29,7 @@ const Contact = () => {
                 data-aos-delay={100}>Get in touch!</h1>
             </div>
 
-            <div>
+            <section className='email-container'>
                 <form onSubmit={sendEmail}>
 
                     <label className="label">Name</label>
@@ -49,7 +49,7 @@ const Contact = () => {
 
                     <button>Submit</button>
                 </form>
-            </div>
+            </section >
 
 
  
