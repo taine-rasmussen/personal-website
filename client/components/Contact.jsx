@@ -13,6 +13,12 @@ const Contact = () => {
           })
       }
 
+      // header above
+      // contact form on the left
+      // social links on the right
+
+
+
     return(
       
         <section className='contact-container'>
@@ -20,7 +26,7 @@ const Contact = () => {
                 <h1 className='contact-header'
                 data-aos='fade-down'
                 data-aos-duration={1500}
-                data-aos-delay={100}>Contact</h1>
+                data-aos-delay={100}>Get in touch!</h1>
             </div>
 
             <div>
