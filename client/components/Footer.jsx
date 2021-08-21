@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
 
     return (
-        <div class="center">
+        <div className="center">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div id="social-test">
                 <ul className="social">
