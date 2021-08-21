@@ -17,8 +17,8 @@ const Landing = () => {
 
                 <Link to='About' smooth={true} duration={2000}>
                     <div className='landing-arrow-container'>
-                        <div class='landing-arrow arrow-first'></div>
-                        <div class='landing-arrow arrow-second'></div>
+                        <div className='landing-arrow arrow-first'></div>
+                        <div className='landing-arrow arrow-second'></div>
                     </div>
                 </Link>    
             </section>
