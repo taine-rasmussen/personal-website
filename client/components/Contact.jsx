@@ -1,5 +1,6 @@
 import React from 'react'
 import { sendForm } from 'emailjs-com'
+import Footer from './Footer'
 
 const Contact = () => {
 
@@ -57,8 +58,9 @@ const Contact = () => {
                 </form>
             </section >
 
-
- 
+            <div className='contact-socail-container'>
+                <Footer />
+            </div>
 
         </section>
     

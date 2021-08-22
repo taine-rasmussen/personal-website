@@ -9,7 +9,6 @@ import About from './About'
 import Photo from './Photo'
 import Tech from './Tech'
 import Contact from './Contact'
-import Footer from './Footer'
 import Photography from './Photography'
 
 // TODO:
@@ -26,7 +25,6 @@ function App () {
         <Route exact path='/' component={Photo} />
         <Route exact path='/' component={Tech} />
         <Route exact path='/' component={Contact} />
-        <Route exact path='/' component={Footer} />
         <Route exact path='/photography' component={Photography} />
       </div>
   )
