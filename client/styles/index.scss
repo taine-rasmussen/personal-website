@@ -159,6 +159,21 @@ $ani-delay: 1s;
 }
 
 // ---- Photo ----
+// ---- Photography ----
+.photography-container{
+  display: flex;
+  justify-content: center;
+}
+
+.photography-img{
+  width: 250px;
+  height: 375;
+  margin: 1rem;
+  border: 3px solid #1B4332;
+  border-radius: 5px;
+}
+// ---- Photography ----
+
 // ---- Tech ----
 .tech-container{
   background-color:  #1B4332;
