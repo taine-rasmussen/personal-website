@@ -27,7 +27,7 @@ const About = () => {
                     </div>
                     <div className='about-right-text'>
                         <p>
-                        I am curious, love learning how things work and teaching where I can. These interests have me working on projects across multiple mediums where I can have opportunities for creative expression / solutions, produce intuitive user experience and see my work having a positive impact for those around me.
+                        I am curious, love learning how things work and teaching where I can. These interests have me working on projects across multiple mediums where I can have opportunities for creative expression / solutions, produce intuitive user experience and see my work having a positive impact.
                         </p>
                     </div>
                 </div>
