@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const photography = () => {
@@ -6,6 +7,9 @@ const photography = () => {
     return(
         <section>
             <h1>photography working</h1>
+            <Link to='/'>
+                <button>Home</button>
+            </Link>
 
         
 

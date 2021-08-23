@@ -13,6 +13,7 @@ import Photography from './Photography'
 
 // TODO:
 // NavBar switches colours depeding on the bg colour of the current component
+// Avoid using set height and width - will only cause issues for responsivness - try use max-width / min-height so it will have a max size but can shrink with screen when needed
 
 
 function App () {
