@@ -2,12 +2,28 @@
 
 body{
   background-color: #F8F0E3;
+  margin: 0;
+}
+//h1 and h1 on off-white bg
+h1{
+  color: #F8F0E3;
+  font-size: 5rem;
+}
+.green{
+  font-size: 5rem;
+  margin-top: 15rem;
+  color: #1B4332;
+}
+// P text and P text on off-white bg
+p{
+  color: #F8F0E3;
+  font-size: 1.3rem;
+}
+.green-p{
+  color: #1B4332;
+  font-size: 1.3rem;
 }
 
-// Colours:
-// Headers: #1B4332
-// Sub Headers: #081C15
-// Landing Page Background colour: #F8F0E3
 
 
 
@@ -105,9 +121,8 @@ $ani-delay: 1s;
 
 .about-container{
   background-color: #1B4332;
-  height: 80vh;
+  height: 100vh;
   max-width: 100vw;
-  border-radius: 15px;
 
 }
 
@@ -116,10 +131,6 @@ $ani-delay: 1s;
   justify-content: center;
 }
 
-.about-header-text{
-  color: #F8F0E3;
-  font-size: 3.5rem;
-}
 
 .about-text-container{
   display: flex;
@@ -146,7 +157,7 @@ $ani-delay: 1s;
 
 .photo-container{
   background-color: #F8F0E3;
-  height: 80vh;
+  height: 100vh;
   max-width: 100vw;
   display: flex;
   justify-content: center;
@@ -177,11 +188,10 @@ flex-wrap: wrap;
 // ---- Tech ----
 .tech-container{
   background-color:  #1B4332;
-  height: 80vh;
+  height: 100vh;
   max-width: 100vw;
   display: flex;
   justify-content: center;
-  border-radius: 15px;
 
 }
 
@@ -194,7 +204,7 @@ flex-wrap: wrap;
 // ---- Contact ---- 
 .contact-container{
   background-color: #F8F0E3;
-  height: 80vh;
+  height: 100vh;
   max-width: 100vw;
   display: flex;
   justify-content: center;
@@ -222,7 +232,6 @@ flex-wrap: wrap;
   margin-left: -54rem;
   height: 20vh;
   padding: 3rem;
-  border-radius: 15px;
 }
 
 // ---- Email ----
