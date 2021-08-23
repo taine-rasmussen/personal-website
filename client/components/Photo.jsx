@@ -8,7 +8,7 @@ const Photo = () => {
     return (
         <>
             <section className='photo-container'>
-                <h1 className='photo-header'
+                <h1 className='green'
                 data-aos='fade-down'
                 data-aos-duration={1500}
                 data-aos-delay={100}>Photography</h1>

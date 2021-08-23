@@ -12,7 +12,7 @@ const About = () => {
                     data-aos-duration={1500}
                     data-aos-delay={100}
                 >
-                    <h1 className='about-header-text'>About Taine</h1>
+                    <h1>About Taine</h1>
                 </div>
 
                 <div      

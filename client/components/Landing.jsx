@@ -11,7 +11,7 @@ const Landing = () => {
         <>
             <section className='landing-container'>
                 <div className='landing-header-container'>
-                    <h1 className='landing-header'>Taine Rasmussen</h1>
+                    <h1 className='green'>Taine Rasmussen</h1>
                     <h3 className='landing-subheader'>Full Stack Software Developer & Photographer</h3>
                 </div>
 
