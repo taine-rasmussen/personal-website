@@ -4,13 +4,7 @@ body{
   background-color: #F8F0E3;
   margin: 0;
 }
-
-// Colours:
-// Headers: #1B4332
-// Sub Headers: #081C15
-// Landing Page Background colour: #F8F0E3
-
-//Headers
+//h1 and h1 on off-white bg
 h1{
   color: #F8F0E3;
   font-size: 5rem;
@@ -19,6 +13,15 @@ h1{
   font-size: 5rem;
   margin-top: 15rem;
   color: #1B4332;
+}
+// P text and P text on off-white bg
+p{
+  color: #F8F0E3;
+  font-size: 1.3rem;
+}
+.green-p{
+  color: #1B4332;
+  font-size: 1.3rem;
 }
 
 
@@ -128,10 +131,6 @@ $ani-delay: 1s;
   justify-content: center;
 }
 
-.about-header-text{
-  color: #F8F0E3;
-  font-size: 3.5rem;
-}
 
 .about-text-container{
   display: flex;
