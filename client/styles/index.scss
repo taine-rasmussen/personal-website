@@ -161,8 +161,8 @@ $ani-delay: 1s;
 // ---- Photo ----
 // ---- Photography ----
 .photography-container{
-  display: flex;
-  justify-content: center;
+display: flex;
+flex-wrap: wrap;
 }
 
 .photography-img{
