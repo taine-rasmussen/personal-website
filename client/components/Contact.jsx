@@ -15,14 +15,7 @@ const Contact = () => {
           e.target.reset()
       }
 
-      // header above
-      // contact form on the left
-      // social links on the right
-
-
-
     return(
-      
         <section className='contact-container'>
             <div>
                 <h1 className='contact-header'
