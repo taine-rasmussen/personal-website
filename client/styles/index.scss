@@ -197,18 +197,20 @@ flex-wrap: wrap;
 .tech-header{
   font-size: 5rem;
   margin-top: 5rem;
-  color:  #F8F0E3;;
+  color:  #F8F0E3;
 }
 
 .tech-label-container{
   display: flex;
   flex-wrap: wrap;
   border: 1px black solid;
+  justify-content: center;
+
 }
 
 .tech-label{
   font-size: 2rem;
- 
+  color: #F8F0E3;
 }
 
 
