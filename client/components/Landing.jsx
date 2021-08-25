@@ -10,7 +10,11 @@ const Landing = () => {
     return( 
         <>
             <section className='landing-container'>
-                <div className='landing-header-container'>
+                <div className='landing-header-container'
+                     data-aos='fade-down'
+                     data-aos-duration={1000}
+                     data-aos-delay={100}
+                 >
                     <h1 className='green'>Taine Rasmussen</h1>
                     <h3 className='landing-subheader'>Full Stack Software Developer & Photographer</h3>
                 </div>
