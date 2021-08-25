@@ -14,6 +14,10 @@ h1{
   margin-top: 15rem;
   color: #1B4332;
 }
+.postioned-top-left{
+  padding-left: 3.5rem;
+  padding-top: 2.2rem;
+}
 // P text and P text on off-white bg
 p{
   color: #F8F0E3;
@@ -188,7 +192,7 @@ flex-wrap: wrap;
 // ---- Tech ----
 .tech-container{
   background-color:  #1B4332;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 100vw;
   justify-content: center;
 }
@@ -213,6 +217,9 @@ flex-wrap: wrap;
 
   border-bottom: 4px solid #081C15;
   padding-bottom: 10px;
+
+  min-width: 75vw;
+
 }
 
 .tech-label-container{
@@ -242,6 +249,20 @@ flex-wrap: wrap;
   color: #F8F0E3;
 
 }
+
+@media only screen and (max-width: 768px) {
+  .tech-blurb{
+    margin-left: 3.4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .postioned-top-left{
+    margin-left: 1rem;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
 
 
 // ---- Tech ----

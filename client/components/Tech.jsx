@@ -8,10 +8,10 @@ const Tech = () => {
         <>
             <section className='tech-container'>
                 <div className='tech-header-container'>
-                    <h1 
-                    data-aos='fade-down'
+                    <h1 className='postioned-top-left'
+                    data-aos='fade-right'
                     data-aos-duration={1500}
-                    data-aos-delay={100}>Tech</h1>
+                    data-aos-delay={50}>Tech Skills</h1>
 
                     <p className='tech-blurb'> 
                         As I continue to build these skills I am    constanlty find new rabbit holes to fall down, having fun exploring new technology & working on projects that im definitely going to finish before starting something new. Feel free to reach out & ask about any of these and how I've applied them to my projects.   
