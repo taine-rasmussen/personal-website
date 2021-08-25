@@ -7,12 +7,10 @@ const About = () => {
         <> 
             <section className='about-container'>
 
-                <div className='about-header'
-                    data-aos='fade-down'
+                <div className='about-header'>
+                    <h1 className='postioned-top-left' data-aos='fade-right'
                     data-aos-duration={1500}
-                    data-aos-delay={100}
-                >
-                    <h1>About Taine</h1>
+                    data-aos-delay={50}>About Taine</h1>
                 </div>
 
                 <div      
