@@ -20,7 +20,7 @@ const Tech = () => {
 
 
                     <div className='tech-label-container'>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://www.javascript.com/' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
@@ -30,7 +30,7 @@ const Tech = () => {
                                 <label className='tech-label'>JavaScript</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://www.codecademy.com/learn/learn-html' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
@@ -40,7 +40,7 @@ const Tech = () => {
                                 <label className='tech-label'>HTML</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://www.codecademy.com/learn/learn-css' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
@@ -50,7 +50,7 @@ const Tech = () => {
                                 <label className='tech-label'>CSS</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://reactjs.org/' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
@@ -60,7 +60,7 @@ const Tech = () => {
                                 <label className='tech-label'>React</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://redux.js.org/' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
@@ -70,7 +70,7 @@ const Tech = () => {
                                 <label className='tech-label'>Redux</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://nodejs.org/en/about/' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
@@ -80,7 +80,7 @@ const Tech = () => {
                                 <label className='tech-label'>Node</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://jestjs.io/' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
@@ -90,7 +90,7 @@ const Tech = () => {
                                 <label className='tech-label'>Jest</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://www.npmjs.com/package/supertest' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
@@ -100,7 +100,7 @@ const Tech = () => {
                                 <label className='tech-label'>Supertest</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://www.npmjs.com/package/superagent' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
@@ -110,7 +110,7 @@ const Tech = () => {
                                 <label className='tech-label'>Superagent</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://expressjs.com/' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
@@ -120,7 +120,7 @@ const Tech = () => {
                                 <label className='tech-label'>Express</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://knexjs.org/' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
@@ -130,7 +130,7 @@ const Tech = () => {
                                 <label className='tech-label'>SQLite</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://knexjs.org/' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
@@ -140,7 +140,7 @@ const Tech = () => {
                                 <label className='tech-label'>Knex</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://www.atlassian.com/git/tutorials/what-is-version-control' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
@@ -150,7 +150,7 @@ const Tech = () => {
                                 <label className='tech-label'>Git Version Control</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://towardsdatascience.com/introduction-to-rest-apis-90b5d9676004' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-up'
@@ -160,7 +160,7 @@ const Tech = () => {
                                 <label className='tech-label'>RESTful API's</label>
                             </div>
                         </a>
-                        <a href='https://github.com/taine-rasmussen' target='_blank'
+                        <a href='https://code.visualstudio.com/docs/introvideos/debugging' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'

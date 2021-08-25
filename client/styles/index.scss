@@ -242,12 +242,11 @@ flex-wrap: wrap;
 
 .tech-link{
   text-decoration: none;
-  cursor: default
 }
 .tech-label{
   font-size: 2rem;
   color: #F8F0E3;
-
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
