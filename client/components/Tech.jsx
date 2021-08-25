@@ -24,8 +24,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
-                                data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-duration={2000}
+                                data-aos-delay={300}
                             >
                                 <label className='tech-label'>JavaScript</label>
                             </div>
@@ -35,7 +35,7 @@ const Tech = () => {
                             <div className='tech-label-single'
                                 data-aos='fade-right'
                                 data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>HTML</label>
                             </div>
@@ -45,7 +45,7 @@ const Tech = () => {
                             <div className='tech-label-single'
                                 data-aos='fade-right'
                                 data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>CSS</label>
                             </div>
@@ -55,7 +55,7 @@ const Tech = () => {
                             <div className='tech-label-single'
                                 data-aos='fade-left'
                                 data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>React</label>
                             </div>
@@ -65,7 +65,7 @@ const Tech = () => {
                             <div className='tech-label-single'
                                 data-aos='fade-left'
                                 data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>Redux</label>
                             </div>
@@ -75,7 +75,7 @@ const Tech = () => {
                             <div className='tech-label-single'
                                 data-aos='fade-left'
                                 data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>Node</label>
                             </div>
@@ -84,8 +84,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
-                                data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-duration={2000}
+                                data-aos-delay={300}
                             >
                                 <label className='tech-label'>Jest</label>
                             </div>
@@ -94,8 +94,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
-                                data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-duration={2000}
+                                data-aos-delay={300}
                             >
                                 <label className='tech-label'>Supertest</label>
                             </div>
@@ -105,7 +105,7 @@ const Tech = () => {
                             <div className='tech-label-single'
                                 data-aos='fade-right'
                                 data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>Superagent</label>
                             </div>
@@ -115,7 +115,7 @@ const Tech = () => {
                             <div className='tech-label-single'
                                 data-aos='fade-left'
                                 data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>Express</label>
                             </div>
@@ -125,7 +125,7 @@ const Tech = () => {
                             <div className='tech-label-single'
                                 data-aos='fade-left'
                                 data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>SQLite</label>
                             </div>
@@ -134,8 +134,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
-                                data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-duration={2000}
+                                data-aos-delay={300}
                             >
                                 <label className='tech-label'>Knex</label>
                             </div>
@@ -144,8 +144,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
-                                data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-duration={2000}
+                                data-aos-delay={300}
                             >
                                 <label className='tech-label'>Git Version Control</label>
                             </div>
@@ -154,8 +154,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-up'
-                                data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-duration={1750}
+                                data-aos-delay={250}
                             >
                                 <label className='tech-label'>RESTful API's</label>
                             </div>
@@ -164,8 +164,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
-                                data-aos-duration={1500}
-                                data-aos-delay={100}
+                                data-aos-duration={2000}
+                                data-aos-delay={300}
                             >
                                 <label className='tech-label'>Browser & Server Debugging</label>
                             </div>
