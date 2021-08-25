@@ -12,8 +12,8 @@ const Landing = () => {
             <section className='landing-container'>
                 <div className='landing-header-container'
                      data-aos='fade-down'
-                     data-aos-duration={1000}
-                     data-aos-delay={100}
+                     data-aos-duration={2000}
+                     data-aos-delay={150}
                  >
                     <h1 className='green'>Taine Rasmussen</h1>
                     <h3 className='landing-subheader'>Full Stack Software Developer & Photographer</h3>
