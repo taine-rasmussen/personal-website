@@ -13,8 +13,11 @@ const Tech = () => {
                     data-aos-duration={1500}
                     data-aos-delay={50}>Tech Skills</h1>
 
-                    <p className='tech-blurb'> 
-                        As I continue to build these skills I am    constanlty find new rabbit holes to fall down, having fun exploring new technology & working on projects that im definitely going to finish before starting something new. Feel free to reach out & ask about any of these and how I've applied them to my projects.   
+                    <p className='tech-blurb'
+                    data-aos='fade'
+                    data-aos-duration={3000}
+                    data-aos-delay={100}> 
+                        As I continue to build these skills I am    constanlty find new rabbit holes to fall down, having fun exploring new technology & working on projects that im definitely going to finish before starting something new. Feel free to reach out & ask about any of these and how I've applied them to my projects. <p className='is-italic'>Click the links to find out more!</p>  
                     </p>
                 </div>
 

@@ -17,15 +17,21 @@ h1{
 .postioned-top-left{
   padding-left: 3.5rem;
   padding-top: 2.2rem;
+  text-shadow: #F8F0E3 0.5px 0.5px 0;
+
 }
 // P text and P text on off-white bg
 p{
-  color: #F8F0E3;
+  color: #081C15;
   font-size: 1.3rem;
 }
 .green-p{
   color: #1B4332;
   font-size: 1.3rem;
+}
+.is-italic{
+  font-style: italic;
+  font-size: 1rem;
 }
 
 
@@ -210,17 +216,8 @@ flex-wrap: wrap;
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: -2.5rem;
-
- 
   font-weight: 800;
   color: #081C15;
-
-  border-bottom: 4px solid #081C15;
-  border-right: 4px solid #081C15;
-  border-radius: 0 0 6px 0;
-  padding-bottom: 14px;
-  padding-right: 10px;
-
   min-width: 75vw;
 
 }
@@ -231,15 +228,17 @@ flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: center;
   margin: 5vw;
+  margin-top: 2rem;
 }
 
 .tech-label-single{
-  border: 2px #F8F0E3 solid;
+  border: 2px #F8F0E3 dashed solid;
   max-width: 400px;
   min-height: 25px;
   padding: 30px;
   margin: 15px;
-  box-shadow: #F8F0E3 0px 3px 8px;
+  box-shadow: #F8F0E3 5px 5px 7px;
+  border-radius: 7px;
   
 }
 
