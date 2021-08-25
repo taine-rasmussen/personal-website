@@ -6,13 +6,17 @@ body{
 }
 //h1 and h1 on off-white bg
 h1{
-  color: #F8F0E3;
+  color: #081C15;
   font-size: 5rem;
 }
 .green{
   font-size: 5rem;
   margin-top: 15rem;
   color: #1B4332;
+}
+.postioned-top-left{
+  padding-left: 3.5rem;
+  padding-top: 2.2rem;
 }
 // P text and P text on off-white bg
 p{
@@ -188,7 +192,7 @@ flex-wrap: wrap;
 // ---- Tech ----
 .tech-container{
   background-color:  #1B4332;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 100vw;
   justify-content: center;
 }
@@ -207,6 +211,15 @@ flex-wrap: wrap;
   margin-right: 10rem;
   margin-top: -2.5rem;
 
+ 
+  font-weight: 800;
+  color: #081C15;
+
+  border-bottom: 4px solid #081C15;
+  padding-bottom: 10px;
+
+  min-width: 75vw;
+
 }
 
 .tech-label-container{
@@ -223,12 +236,33 @@ flex-wrap: wrap;
   min-height: 25px;
   padding: 30px;
   margin: 15px;
+  box-shadow: #F8F0E3 0px 3px 8px;
+  
 }
 
+.tech-link{
+  text-decoration: none;
+  cursor: default
+}
 .tech-label{
   font-size: 2rem;
   color: #F8F0E3;
+
 }
+
+@media only screen and (max-width: 768px) {
+  .tech-blurb{
+    margin-left: 3.4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .postioned-top-left{
+    margin-left: 1rem;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
 
 
 // ---- Tech ----
