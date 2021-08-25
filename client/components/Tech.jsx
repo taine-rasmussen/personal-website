@@ -50,7 +50,7 @@ const Tech = () => {
                                 <label className='tech-label'>CSS</label>
                             </div>
                         </a>
-                        <a href='https://reactjs.org/' target='_blank'
+                        <a href='https://reactjs.org/docs/getting-started.html' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
@@ -60,7 +60,7 @@ const Tech = () => {
                                 <label className='tech-label'>React</label>
                             </div>
                         </a>
-                        <a href='https://redux.js.org/' target='_blank'
+                        <a href='https://redux.js.org/introduction/getting-started' target='_blank'
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
