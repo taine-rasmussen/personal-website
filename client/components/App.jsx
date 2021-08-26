@@ -16,7 +16,7 @@ import Photography from './Photography'
 // Avoid using set height and width - will only cause issues for responsivness - try use max-width / min-height so it will have a max size but can shrink with screen when needed
 // Using the classNames from the social links the were cmd c & v'd make my own btns to get around styling and layout issues
 // make collages of the images and upload that - will be easier positioning and reduce risk of deploy 404 on imgs issue
-
+// ** add on hover to labels on tech page ** - look nice but not overdone - dont make it look like you just learned how to make things move with css and now the whole website is flowing all over the place, even tho that is kinda whats happening lmao **
 
 
 function App () {
