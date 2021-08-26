@@ -47,8 +47,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
-                                data-aos-duration={1500}
-                                data-aos-delay={150}
+                                data-aos-duration={1000}
+                                data-aos-delay={75}
                             >
                                 <label className='tech-label'>CSS</label>
                             </div>
@@ -57,8 +57,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
-                                data-aos-duration={1500}
-                                data-aos-delay={150}
+                                data-aos-duration={1000}
+                                data-aos-delay={75}
                             >
                                 <label className='tech-label'>React</label>
                             </div>
@@ -117,8 +117,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
-                                data-aos-duration={1500}
-                                data-aos-delay={150}
+                                data-aos-duration={1000}
+                                data-aos-delay={75}
                             >
                                 <label className='tech-label'>Express</label>
                             </div>
@@ -157,8 +157,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-up'
-                                data-aos-duration={1750}
-                                data-aos-delay={250}
+                                data-aos-duration={1500}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>RESTful API's</label>
                             </div>
