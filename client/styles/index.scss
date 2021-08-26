@@ -33,6 +33,18 @@ p{
   font-style: italic;
   font-size: 1rem;
 }
+// a tags
+a{
+  text-decoration: none;
+}
+a:visited { 
+  text-decoration: underline; 
+  color: #081C15;
+}
+
+.is-underlined{
+  text-decoration: underline;
+}
 
 
 
@@ -242,16 +254,21 @@ flex-wrap: wrap;
 }
 
 .tech-label-single:hover{
+  min-height: 15px;
   background-color: #081C15;
+  box-shadow: #F8F0E3 3px 3px 3px;
+
 }
 
 .tech-link{
+  min-height: 15px;
   text-decoration: none;
 }
 .tech-label{
   font-size: 2rem;
   color: #F8F0E3;
   cursor: pointer;
+  min-height: 15px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -15,9 +15,9 @@ const Tech = () => {
 
                     <p className='tech-blurb'
                     data-aos='fade'
-                    data-aos-duration={3000}
-                    data-aos-delay={100}> 
-                        As I continue to build these skills I am    constanlty find new rabbit holes to fall down, having fun exploring new technology & working on projects that im definitely going to finish before starting something new. Feel free to reach out & ask about any of these and how I've applied them to my projects. <p className='is-italic'>Click the links to find out more!</p>  
+                    data-aos-duration={2000}
+                    data-aos-delay={750}> 
+                        As I continue to build these skills I am    constanlty find new rabbit holes to fall down, having fun exploring new technology & working on projects that im definitely going to finish before starting something new. Feel free to reach out & ask about any of these and how I've applied them to my projects. <p className='is-italic'>Click the links to find out more & checkout my <a href='https://github.com/taine-rasmussen' target='_blank' className='is-underlined'>github</a> to see how I have used them!</p>  
                     </p>
                 </div>
 
@@ -47,8 +47,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-right'
-                                data-aos-duration={1500}
-                                data-aos-delay={150}
+                                data-aos-duration={1000}
+                                data-aos-delay={75}
                             >
                                 <label className='tech-label'>CSS</label>
                             </div>
@@ -57,8 +57,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
-                                data-aos-duration={1500}
-                                data-aos-delay={150}
+                                data-aos-duration={1000}
+                                data-aos-delay={75}
                             >
                                 <label className='tech-label'>React</label>
                             </div>
@@ -117,8 +117,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-left'
-                                data-aos-duration={1500}
-                                data-aos-delay={150}
+                                data-aos-duration={1000}
+                                data-aos-delay={75}
                             >
                                 <label className='tech-label'>Express</label>
                             </div>
@@ -157,8 +157,8 @@ const Tech = () => {
                         className='tech-link'>
                             <div className='tech-label-single'
                                 data-aos='fade-up'
-                                data-aos-duration={1750}
-                                data-aos-delay={250}
+                                data-aos-duration={1500}
+                                data-aos-delay={150}
                             >
                                 <label className='tech-label'>RESTful API's</label>
                             </div>
