@@ -17,7 +17,7 @@ h1{
 .postioned-top-left{
   padding-left: 3.5rem;
   padding-top: 2.2rem;
-  text-shadow: #F8F0E3 0.5px 0.5px 0;
+  text-shadow: #40916C 1.2px 1.2px 0;
 
 }
 // P text and P text on off-white bg
@@ -237,9 +237,12 @@ flex-wrap: wrap;
   min-height: 25px;
   padding: 30px;
   margin: 15px;
-  box-shadow: #F8F0E3 5px 5px 7px;
+  box-shadow: #F8F0E3 5px 5px 6px;
   border-radius: 7px;
-  
+}
+
+.tech-label-single:hover{
+  background-color: #081C15;
 }
 
 .tech-link{
