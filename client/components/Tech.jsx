@@ -15,8 +15,8 @@ const Tech = () => {
 
                     <p className='tech-blurb'
                     data-aos='fade'
-                    data-aos-duration={3000}
-                    data-aos-delay={100}> 
+                    data-aos-duration={2000}
+                    data-aos-delay={750}> 
                         As I continue to build these skills I am    constanlty find new rabbit holes to fall down, having fun exploring new technology & working on projects that im definitely going to finish before starting something new. Feel free to reach out & ask about any of these and how I've applied them to my projects. <p className='is-italic'>Click the links to find out more & checkout my <a href='https://github.com/taine-rasmussen' target='_blank' className='is-underlined'>github</a> to see how I have used them!</p>  
                     </p>
                 </div>
