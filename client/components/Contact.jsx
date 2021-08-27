@@ -51,10 +51,6 @@ const Contact = () => {
                 </form>
             </section >
 
-            <div className='contact-socail-container'>
-                <Footer />
-            </div>
-
         </section>
     
     )
