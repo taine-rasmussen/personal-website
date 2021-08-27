@@ -310,8 +310,26 @@ flex-wrap: wrap;
   justify-content: center;
 }
 
+.contact-header-container{
+  border: 1px solid black;
+}
+
+.contact-header{
+  font-size: 5rem;
+  margin-top: 5rem;
+  color: #1B4332;
+}
+// ---- Contact ---- 
+// ---- Email ----
+.email-container{
+  background-color: #1B4332;
+  display: grid;
+  justify-content: center;
+  max-width: 500px;
+}
+
 .label{
-margin-right: 2.5px;
+  margin-right: 2.5px;
 }
 
 .input{
@@ -327,25 +345,9 @@ margin-right: 2.5px;
 .is-send-btn{
   
 }
-.contact-header-container{
-   border: 1px solid black;
-}
 
-.contact-header{
-  font-size: 5rem;
-  margin-top: 5rem;
-  color: #1B4332;
-}
-// ---- Contact ---- 
-// ---- Email ----
-.email-container{
-  background-color: #1B4332;
-  display: flex;
-  justify-content: center;
-  margin-top: 13rem;
-  margin-left: -54rem;
-  height: 20vh;
-  padding: 3rem;
+.is-email-message{
+  max-width: 250px;
 }
 
 // ---- Email ----
