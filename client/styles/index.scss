@@ -301,17 +301,17 @@ flex-wrap: wrap;
 
 // ---- Tech ----
 // ---- Contact ---- 
-.contact-container{
-  background-color: #F8F0E3;
-  height: 100vh;
+.test{
+  min-height: 100vh;
   max-width: 100vw;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 
-.contact-header-container{
-  border: 1px solid black;
+.contact-container{
+  margin-left: 3rem;
 }
 
 .contact-header{
@@ -325,7 +325,8 @@ flex-wrap: wrap;
   background-color: #1B4332;
   display: grid;
   justify-content: center;
-  max-width: 500px;
+  max-width: 400px;
+  min-height: 700px;
 }
 
 .label{
@@ -349,6 +350,8 @@ flex-wrap: wrap;
 .is-email-message{
   max-width: 250px;
 }
+
+
 
 // ---- Email ----
 // ---- Social Links ----
