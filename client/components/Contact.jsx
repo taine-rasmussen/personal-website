@@ -17,7 +17,7 @@ const Contact = () => {
 
     return(
         <section className='contact-container'>
-            <div>
+            <div className='contact-header-container'>
                 <h1 className='contact-header'
                 data-aos='fade-down'
                 data-aos-duration={1500}
@@ -47,7 +47,7 @@ const Contact = () => {
 
                         <br></br>
 
-                    <button>Submit</button>
+                    <button className='is-btn'>Send!</button>
                 </form>
             </section >
 
