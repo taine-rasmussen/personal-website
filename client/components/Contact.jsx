@@ -16,13 +16,15 @@ const Contact = () => {
       }
 
     return(
+        <div className='test'>
         <section className='contact-container'>
             <div className='contact-header-container'>
                 <h1 className='contact-header'
-                data-aos='fade-down'
+                data-aos='fade-right'
                 data-aos-duration={1500}
                 data-aos-delay={100}>Get in touch!</h1>
             </div>
+            </section>
 
             <section className='email-container'>
                 <form onSubmit={sendEmail}>
@@ -43,16 +45,14 @@ const Contact = () => {
                         <br></br>
 
                     <label className="label move-left2">Message: </label>
-                    <textarea className="input" name="message" placeholder='Message'></textarea>
+                    <textarea className="input is-email-message" name="message" placeholder='Message'></textarea>
 
                         <br></br>
 
                     <button className='is-btn is-send-btn'>Send!</button>
                 </form>
             </section >
-
-        </section>
-    
+        </div>
     )
 }
 
