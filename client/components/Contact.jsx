@@ -27,27 +27,27 @@ const Contact = () => {
             <section className='email-container'>
                 <form onSubmit={sendEmail}>
 
-                    <label className="label">Name</label>
+                    <label className="label">Name: </label>
                     <input type="text" name="name" placeholder='Name'/>
 
                         <br></br>
 
-                    <label className="label">Email</label>
+                    <label className="label">Email: </label>
                     <input className="input" type="email" name="email" placeholder='Email'/>
 
                         <br></br>
 
-                    <label className="label">Subject</label>
+                    <label className="label move-left">Subject: </label>
                     <input className="input" type="text" name="subject" placeholder='Subject'/>
 
                         <br></br>
 
-                    <label className="label">Message</label>
-                    <textarea className="textarea" name="message" placeholder='Message'></textarea>
+                    <label className="label move-left2">Message: </label>
+                    <textarea className="input" name="message" placeholder='Message'></textarea>
 
                         <br></br>
 
-                    <button className='is-btn'>Send!</button>
+                    <button className='is-btn is-send-btn'>Send!</button>
                 </form>
             </section >
 

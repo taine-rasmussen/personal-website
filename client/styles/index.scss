@@ -310,6 +310,23 @@ flex-wrap: wrap;
   justify-content: center;
 }
 
+.label{
+margin-right: 2.5px;
+}
+
+.input{
+  margin-top: 0.5rem;
+}
+.move-left{
+  margin-left: -0.6rem;
+}
+.move-left2{
+  margin-left: -1.1rem;
+} // horrible naming conventions lol
+
+.is-send-btn{
+  
+}
 .contact-header-container{
    border: 1px solid black;
 }
