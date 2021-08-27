@@ -8,7 +8,7 @@ const photography = () => {
         <section>
             <h1>photography working</h1>
             <Link to='/'>
-                <button>Home</button>
+                <button className='is-btn'>Home</button>
             </Link>
 
         

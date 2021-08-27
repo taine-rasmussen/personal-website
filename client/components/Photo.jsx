@@ -13,7 +13,7 @@ const Photo = () => {
                 data-aos-duration={1500}
                 data-aos-delay={100}>Photography</h1>
                 
-                <Link to='photography'><button>to photos</button></Link>
+                <Link to='photography'><button className='is-btn'>to photos</button></Link>
             </section>
         </>
     )
