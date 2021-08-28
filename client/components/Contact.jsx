@@ -28,28 +28,29 @@ const Contact = () => {
 
             <section className='email-container'>
                 <form onSubmit={sendEmail}>
+                    <div className='email-contents'>
+                        <label className="label">Name: </label>
+                        <input type="text" name="name" placeholder='Name'/>
 
-                    <label className="label">Name: </label>
-                    <input type="text" name="name" placeholder='Name'/>
+                            <br></br>
 
-                        <br></br>
+                        <label className="label">Email: </label>
+                        <input className="input" type="email" name="email" placeholder='Email'/>
 
-                    <label className="label">Email: </label>
-                    <input className="input" type="email" name="email" placeholder='Email'/>
+                            <br></br>
 
-                        <br></br>
+                        <label className="label move-left">Subject: </label>
+                        <input className="input" type="text" name="subject" placeholder='Subject'/>
 
-                    <label className="label move-left">Subject: </label>
-                    <input className="input" type="text" name="subject" placeholder='Subject'/>
+                            <br></br>
 
-                        <br></br>
+                        <label className="label move-left2">Message: </label>
+                        <textarea className="input is-email-message" name="message" placeholder='Message'></textarea>
 
-                    <label className="label move-left2">Message: </label>
-                    <textarea className="input is-email-message" name="message" placeholder='Message'></textarea>
+                            <br></br>
 
-                        <br></br>
-
-                    <button className='is-btn is-send-btn'>Send!</button>
+                        <button className='is-btn is-send-btn'>Send!</button>
+                    </div>
                 </form>
             </section >
         </div>

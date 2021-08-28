@@ -307,7 +307,6 @@ flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
 }
 
 .contact-container{
@@ -318,15 +317,25 @@ flex-wrap: wrap;
   font-size: 5rem;
   margin-top: 5rem;
   color: #1B4332;
+  text-shadow: #081C15 2.2px 2.2px 0px;
+
 }
 // ---- Contact ---- 
 // ---- Email ----
 .email-container{
   background-color: #1B4332;
+  border:#081C15 4px solid;
   display: grid;
+  border-radius: 15px;
   justify-content: center;
   max-width: 400px;
-  min-height: 700px;
+  min-height: 300px;
+  margin-left: 33vw;
+  margin-top: 2.5rem;
+}
+
+.email-contents{
+  margin: 3rem;
 }
 
 .label{
