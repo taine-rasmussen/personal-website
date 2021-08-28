@@ -18,12 +18,10 @@ const Contact = () => {
     return(
         <div className='test'>
         <section className='contact-container'>
-            <div className='contact-header-container'>
                 <h1 className='contact-header'
                 data-aos='fade-right'
                 data-aos-duration={1500}
                 data-aos-delay={100}>Get in touch!</h1>
-            </div>
             </section>
 
             <section className='email-container'>

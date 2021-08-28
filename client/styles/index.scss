@@ -353,11 +353,23 @@ flex-wrap: wrap;
 } // horrible naming conventions lol
 
 .is-send-btn{
-  
+  margin: 1rem;
+  margin-left: 3rem;
 }
 
 .is-email-message{
   max-width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .test{
+    margin-left: -4.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-container{
+    margin-left: 9rem;
+  }
 }
 
 
