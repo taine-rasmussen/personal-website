@@ -27,23 +27,23 @@ const Contact = () => {
             <section className='email-container'>
                 <form onSubmit={sendEmail}>
                     <div className='email-contents'>
-                        <label className="label">Name: </label>
+                        <label className="label"><strong>Name: </strong></label>
                         <input type="text" name="name" placeholder='Name'/>
 
                             <br></br>
 
-                        <label className="label">Email: </label>
+                        <label className="label"><strong>Email: </strong></label>
                         <input className="input" type="email" name="email" placeholder='Email'/>
 
                             <br></br>
 
-                        <label className="label move-left">Subject: </label>
+                        <label className="label move-left"><strong>Subject: </strong></label>
                         <input className="input" type="text" name="subject" placeholder='Subject'/>
 
                             <br></br>
 
-                        <label className="label move-left2">Message: </label>
-                        <textarea className="input is-email-message" name="message" placeholder='Message'></textarea>
+                        <label className="label move-left2"><strong>Message: </strong></label>
+                        <textarea className="input is-email-message" name="message" placeholder='Message' cols="25" rows="8"></textarea>
 
                             <br></br>
 
