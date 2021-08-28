@@ -361,6 +361,17 @@ flex-wrap: wrap;
   max-width: 250px;
 }
 
+@media only screen and (max-width: 768px) {
+  .test{
+    margin-left: -4.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-container{
+    margin-left: 9rem;
+  }
+}
+
 
 
 // ---- Email ----
