@@ -14,6 +14,16 @@ h1{
   margin-top: 15rem;
   color: #1B4332;
 }
+// h2
+h2{
+  color: #081C15;
+  font-size: 5rem;
+}
+.green{
+  font-size: 5rem;
+  margin-top: 15rem;
+  color: #1B4332;
+}
 .postioned-top-left{
   padding-left: 3.5rem;
   padding-top: 2.2rem;
@@ -195,6 +205,7 @@ $ani-delay: 1s;
   height: 100vh;
   max-width: 100vw;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -202,6 +213,18 @@ $ani-delay: 1s;
   font-size: 5rem;
   margin-top: 5rem;
   color: #1B4332;
+}
+
+.photo-headers-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.photo-sub-header{
+
 }
 
 // ---- Photo ----
@@ -350,6 +373,7 @@ flex-wrap: wrap;
 }
 .move-left2{
   margin-left: -1.1rem;
+  margin-top: -4rem;
 } // horrible naming conventions lol
 
 .is-send-btn{
@@ -358,7 +382,10 @@ flex-wrap: wrap;
 }
 
 .is-email-message{
-  max-width: 250px;
+  padding:  0.4em;
+  padding-bottom:190px;
+  width: 275px;
+  height: 10px;
 }
 
 @media only screen and (max-width: 768px) {
