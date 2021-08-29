@@ -210,9 +210,8 @@ $ani-delay: 1s;
 }
 
 .photo-header{
-  font-size: 5rem;
-  margin-top: 5rem;
-  color: #1B4332;
+  margin-left: -575px;
+  margin-top: -0.5rem;
 }
 
 .photo-headers-container{
@@ -220,11 +219,15 @@ $ani-delay: 1s;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  border: 2px solid black;
+
 }
 
 .photo-sub-header{
+  font-size: 4.5rem;
+}
 
+.photo-sub-header:hover{
+  color: #40916C;
 }
 
 // ---- Photo ----
@@ -372,20 +375,23 @@ flex-wrap: wrap;
   margin-left: -0.6rem;
 }
 .move-left2{
-  margin-left: -1.1rem;
-  margin-top: -4rem;
+  margin-left: -1rem;
+
+
 } // horrible naming conventions lol
 
 .is-send-btn{
-  margin: 1rem;
-  margin-left: 3rem;
+
+
 }
 
 .is-email-message{
   padding:  0.4em;
   padding-bottom:190px;
-  width: 275px;
+  width: 255px;
   height: 10px;
+  margin-left: 55px;
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 768px) {
