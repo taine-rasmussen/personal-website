@@ -14,8 +14,10 @@ const Photo = () => {
                 data-aos-delay={100}>Photography</h1>
 
             <div className='photo-headers-container'>
-                <h2 className='photo-sub-header'>Portrait</h2>
-                <h2 className='photo-sub-header'>Street</h2>
+                <Link to='photography'>
+                    <h2 className='photo-sub-header'>Portrait</h2>
+                    <h2 className='photo-sub-header'>Street</h2>
+                </Link>
             </div>
                 
                 <Link to='photography'><button className='is-btn'>to photos</button></Link>

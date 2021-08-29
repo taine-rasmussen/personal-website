@@ -219,11 +219,15 @@ $ani-delay: 1s;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  border: 2px solid black;
+
 }
 
 .photo-sub-header{
+  font-size: 4.5rem;
+}
 
+.photo-sub-header:hover{
+  color: #40916C;
 }
 
 // ---- Photo ----
