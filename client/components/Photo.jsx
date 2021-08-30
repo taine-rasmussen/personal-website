@@ -23,7 +23,7 @@ const Photo = () => {
 
                 <div className='photo-headers-container'>
                     <div className='photo-portrait-container container'>
-                        <Link to='photography'>
+                        <Link to='portrait'>
                             <h2 className='photo-sub-header'
                                 data-aos='fade-up'
                                 data-aos-duration={1500}
@@ -35,7 +35,7 @@ const Photo = () => {
                         </Link>
                     </div>
                     <div className='photo-street-container'>
-                        <Link to='photography'>
+                        <Link to='street'>
                             <h2 className='photo-sub-header right'
                             data-aos='fade-up'
                             data-aos-duration={1500}
