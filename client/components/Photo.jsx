@@ -19,19 +19,43 @@ const Photo = () => {
                 </p>
 
             <div className='photo-headers-container'>
-                <div className='photo-sub-header-container'>
+                <div className='photo-portrait-container container'>
                     <Link to='photography'>
-                        <h2 className='photo-sub-header'>Portrait</h2>
-                        <img src='Imgs/Bri1.jpg' alt='portrait of women' className='preview-photo' />
+                        <h2 className='photo-sub-header'
+                            data-aos='fade-up'
+                            data-aos-duration={1500}
+                            data-aos-delay={100}><span>Portrait</span></h2>
+
+                        <img src='Imgs/Bri1.jpg' alt='portrait of women' className='preview-photo' 
+                             data-aos='fade-up'
+                             data-aos-duration={1000}
+                             data-aos-delay={125}/>
+                        <img src='Imgs/portrait1.jpg' alt='portrait of women' className=' second-photo' />
+                        <img src='Imgs/portrait2.jpg' alt='portrait of women' className=' third-photo' />
                     </Link>
                 </div>
-                <div className='photo-sub-header-container'>
+                <div className='photo-street-container'>
                     <Link to='photography'>
-                        <h2 className='photo-sub-header'>Street</h2>
-                        <img src='Imgs/travel3.jpg' alt='man walking' className='preview-photo' />
+                        <h2 className='photo-sub-header right'
+                        data-aos='fade-up'
+                        data-aos-duration={1500}
+                        data-aos-delay={100}><span>Street</span></h2>
+
+                        <img src='Imgs/travel3.jpg' alt='portrait of women' className='preview-photo' 
+                             data-aos='fade-up'
+                             data-aos-duration={1500}
+                             data-aos-delay={125}/>
+                        <img src='Imgs/street1.jpg' alt='portrait of women' className=' second-photo' />
+                        <img src='Imgs/travel2.jpg' alt='portrait of women' className=' third-photo' />
                     </Link>
                 </div>
             </div>
+
+        
+
+
+
+
                    
             </section>
         </>

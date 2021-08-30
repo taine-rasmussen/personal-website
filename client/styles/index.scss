@@ -3,6 +3,8 @@
 body{
   background-color: #F8F0E3;
   margin: 0;
+
+ 
 }
 //h1 and h1 on off-white bg
 h1{
@@ -210,6 +212,8 @@ $ani-delay: 1s;
   max-width: 100vw;
 }
 
+
+
 .photo-header{
   margin-left: 55px;
   margin-top: -0.5rem;
@@ -229,30 +233,78 @@ $ani-delay: 1s;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   margin-top: 10px;
+  justify-content: center;
+}
+
+.photo-portrait-container{
+  width: 400px;
+  height: 600px;
+  margin-right: 5rem;
+
+
+}
+.photo-street-container{
+  width: 400px;
+  height: 600px;
+  padding-left: 150px;
+
+  margin-right: -6rem;
+}
+
+.right{
+  margin-left: 2.2rem;
+}
+
+.second-photo{
+  transform: rotate(20deg);
+  z-index: 0;
+  margin-left: 10rem;
+
+  max-width: 200px;
+  min-height: 325px;
+  border: 3px solid #1B4332;
+  border-radius: 5px;
+}
+.second-photo:hover{
+  box-shadow: #081C15 3px -3px 3px;
 
 }
 
-.photo-sub-header-container{
-  border: 2px solid #081C15;
-  margin: 20px;
+.third-photo{
+  transform: rotate(-20deg);
+  z-index: 2;
+  margin-left: -30rem;
+
+  max-width: 200px;
+  min-height: 335px;
+  border: 3px solid #1B4332;
+  border-radius: 5px;
+}
+.third-photo:hover{
+  box-shadow: #081C15 -3px -3px 3px;
 }
 
 .preview-photo{
-  width: 200px;
-  height: 325px;
+  max-width: 200px;
+  min-height: 325px;
   margin: 1rem;
-  border: 3px solid #1B4332;
+  border: 3px solid #081C15;
   border-radius: 5px;
+  z-index: 1;
+  position: absolute;
+}
+.preview-photo:hover{
+  box-shadow: #081C15 3px 3px 3px;
 }
 
 .photo-sub-header{
   font-size: 4.5rem;
 }
 
-.photo-sub-header:hover{
+.photo-sub-header span:hover{
   color: #40916C;
+  text-shadow: #081C15 2px 2px 1px;
 }
 
 // ---- Photo ----
