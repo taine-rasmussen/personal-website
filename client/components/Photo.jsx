@@ -18,39 +18,32 @@ const Photo = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae ipsam in, corporis similique fugit totam molestias tempora tempore rerum animi. Alias id distinctio voluptatibus illum commodi qui laborum. Quam!
                 </p>
 
-            <div className='photo-headers-container'>
-                <div className='photo-portrait-container container'>
-                    <Link to='photography'>
-                        <h2 className='photo-sub-header'
+                <div className='photo-headers-container'>
+                    <div className='photo-portrait-container container'>
+                        <Link to='photography'>
+                            <h2 className='photo-sub-header'
+                                data-aos='fade-up'
+                                data-aos-duration={1500}
+                                data-aos-delay={100}><span>Portrait</span></h2>
+
+                            <img src='Imgs/Bri1.jpg' alt='portrait of women' className='preview-photo'/>
+                            <img src='Imgs/portrait3.jpg' alt='portrait of women' className=' second-photo' />
+                            <img src='Imgs/portrait2.jpg' alt='portrait of women' className=' third-photo' />
+                        </Link>
+                    </div>
+                    <div className='photo-street-container'>
+                        <Link to='photography'>
+                            <h2 className='photo-sub-header right'
                             data-aos='fade-up'
                             data-aos-duration={1500}
-                            data-aos-delay={100}><span>Portrait</span></h2>
+                            data-aos-delay={100}><span>Street</span></h2>
 
-                        <img src='Imgs/Bri1.jpg' alt='portrait of women' className='preview-photo'/>
-                        <img src='Imgs/portrait3.jpg' alt='portrait of women' className=' second-photo' />
-                        <img src='Imgs/portrait2.jpg' alt='portrait of women' className=' third-photo' />
-                    </Link>
-                </div>
-                <div className='photo-street-container'>
-                    <Link to='photography'>
-                        <h2 className='photo-sub-header right'
-                        data-aos='fade-up'
-                        data-aos-duration={1500}
-                        data-aos-delay={100}><span>Street</span></h2>
-
-                        <img src='Imgs/travel3.jpg' alt='portrait of women' className='preview-photo'/>
-                        <img src='Imgs/street1.jpg' alt='portrait of women' className=' second-photo' />
-                        <img src='Imgs/travel2.jpg' alt='portrait of women' className=' third-photo' />
-                    </Link>
-                </div>
-            </div>
-
-        
-
-
-
-
-                   
+                            <img src='Imgs/travel3.jpg' alt='portrait of women' className='preview-photo'/>
+                            <img src='Imgs/street1.jpg' alt='portrait of women' className=' second-photo' />
+                            <img src='Imgs/travel2.jpg' alt='portrait of women' className=' third-photo' />
+                        </Link>
+                    </div>
+                </div>    
             </section>
         </>
     )
