@@ -27,7 +27,7 @@ const Photo = () => {
                             data-aos-delay={100}><span>Portrait</span></h2>
 
                         <img src='Imgs/Bri1.jpg' alt='portrait of women' className='preview-photo'/>
-                        <img src='Imgs/portrait1.jpg' alt='portrait of women' className=' second-photo' />
+                        <img src='Imgs/portrait3.jpg' alt='portrait of women' className=' second-photo' />
                         <img src='Imgs/portrait2.jpg' alt='portrait of women' className=' third-photo' />
                     </Link>
                 </div>
