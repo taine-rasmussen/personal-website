@@ -21,7 +21,7 @@ const Photo = () => {
             <div className='photo-headers-container'>
                 <div className='photo-portrait-container container'>
                     <Link to='photography'>
-                        <h2 className='photo-sub-header'>Portrait</h2>
+                        <h2 className='photo-sub-header'><span>Portrait</span></h2>
                         <img src='Imgs/Bri1.jpg' alt='portrait of women' className='preview-photo' />
                         <img src='Imgs/portrait1.jpg' alt='portrait of women' className=' second-photo' />
                         <img src='Imgs/portrait2.jpg' alt='portrait of women' className=' third-photo' />
@@ -29,7 +29,7 @@ const Photo = () => {
                 </div>
                 <div className='photo-street-container'>
                     <Link to='photography'>
-                        <h2 className='photo-sub-header'>Street</h2>
+                        <h2 className='photo-sub-header right'><span>Street</span></h2>
                         <img src='Imgs/travel3.jpg' alt='portrait of women' className='preview-photo' />
                         <img src='Imgs/street1.jpg' alt='portrait of women' className=' second-photo' />
                         <img src='Imgs/travel2.jpg' alt='portrait of women' className=' third-photo' />

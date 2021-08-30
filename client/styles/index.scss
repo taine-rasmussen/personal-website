@@ -235,22 +235,25 @@ $ani-delay: 1s;
   flex-wrap: wrap;
   margin-top: 10px;
   justify-content: center;
-
-
 }
 
 .photo-portrait-container{
   width: 400px;
   height: 600px;
-  position: relative;
+  margin-right: 5rem;
 
-  border: 3px black solid;
 
 }
 .photo-street-container{
   width: 400px;
   height: 600px;
-  border: 3px black solid;
+  padding-left: 150px;
+
+  margin-right: -6rem;
+}
+
+.right{
+  margin-left: 2rem;
 }
 
 .second-photo{
@@ -279,7 +282,7 @@ $ani-delay: 1s;
   max-width: 200px;
   min-height: 325px;
   margin: 1rem;
-  border: 3px solid #1B4332;
+  border: 3px solid #081C15;
   border-radius: 5px;
   z-index: 1;
   position: absolute;
@@ -289,8 +292,9 @@ $ani-delay: 1s;
   font-size: 4.5rem;
 }
 
-.photo-sub-header:hover{
+.photo-sub-header span:hover{
   color: #40916C;
+  text-shadow: #081C15 2px 2px 1px;
 }
 
 // ---- Photo ----
