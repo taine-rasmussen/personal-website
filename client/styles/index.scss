@@ -310,13 +310,20 @@ $ani-delay: 1s;
 // ---- Photo ----
 // ---- portrait ----
 .portrait-container{
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.portrait-img-container{
+  margin: 1rem;
 }
 
-.portrait-img-container{
+.street-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.street-img-container{
   margin: 1rem;
 }
 

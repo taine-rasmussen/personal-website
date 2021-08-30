@@ -10,22 +10,22 @@ const Portrait = () => {
 
                 <div className='portrait-container'>
                     <div className='portrait-img-container'>
-                        <img src='/Imgs/street2.jpg' alt='' className='portrait-img' />
+                        <img src='/Imgs/Bri1.jpg' alt='' className='portrait-img' />
                     </div>
                     <div className='portrait-img-container'>
-                        <img src='/Imgs/travel1.jpg' alt='' className='landscape-img'/>
+                        <img src='/Imgs/portrait2.jpg' alt='' className='portrait-img'/>
                     </div>
                     <div className='portrait-img-container'>
-                        <img src='/Imgs/travel2.jpg' alt='' className='portrait-img'/>
+                        <img src='/Imgs/Bri2.jpg' alt='' className='portrait-img'/>
                     </div>
                     <div className='portrait-img-container'>
-                        <img src='/Imgs/travel3.jpg' alt='' className='portrait-img'/>
+                        <img src='/Imgs/portrait3.jpg' alt='' className='portrait-img'/>
                     </div>
                     <div className='portrait-img-container'>
-                        <img src='/Imgs/travel4.jpg' alt='' className='landscape-img'/>
+                        <img src='/Imgs/Bri4.jpg' alt='' className='portrait-img'/>
                     </div>
                     <div className='portrait-img-container'>
-                        <img src='/Imgs/street1.jpg' alt='' className='portrait-img'/>
+                        <img src='/Imgs/Bri3.jpg' alt='' className='portrait-img'/>
                     </div>
                 </div>
 
