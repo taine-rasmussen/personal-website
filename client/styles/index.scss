@@ -262,11 +262,12 @@ $ani-delay: 1s;
   max-width: 205px;
   min-height: 325px;
   border: 3px solid #1B4332;
+  box-shadow: #40916C 0px 0px 2px 1px;
   border-radius: 5px;
 }
 .second-photo:hover{
-  box-shadow: #081C15 3px -3px 3px;
-
+  box-shadow: #081C15 0px 0px 2px 2px;
+  border: 3px solid #081C15;
 }
 
 .third-photo{
@@ -277,10 +278,12 @@ $ani-delay: 1s;
   max-width: 200px;
   min-height: 335px;
   border: 3px solid #1B4332;
+  box-shadow: #40916C 0px 0px 2px 1px;
   border-radius: 5px;
 }
 .third-photo:hover{
-  box-shadow: #081C15 -3px -3px 3px;
+  box-shadow: #081C15 0px 0px 2px 2px;
+  border: 3px solid #081C15;
 }
 
 .preview-photo{
@@ -291,9 +294,10 @@ $ani-delay: 1s;
   border-radius: 5px;
   z-index: 1;
   position: absolute;
+  box-shadow: #40916C 0px 0px 2px 1px;
 }
 .preview-photo:hover{
-  box-shadow: #081C15 3px 3px 3px;
+  box-shadow: #081C15 0px 0px 2px 1px;
 }
 
 .photo-sub-header{
