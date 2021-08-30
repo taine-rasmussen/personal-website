@@ -266,6 +266,10 @@ $ani-delay: 1s;
   border: 3px solid #1B4332;
   border-radius: 5px;
 }
+.second-photo:hover{
+  box-shadow: #081C15 3px -3px 3px;
+
+}
 
 .third-photo{
   transform: rotate(-20deg);
@@ -277,6 +281,9 @@ $ani-delay: 1s;
   border: 3px solid #1B4332;
   border-radius: 5px;
 }
+.third-photo:hover{
+  box-shadow: #081C15 -3px -3px 3px;
+}
 
 .preview-photo{
   max-width: 200px;
@@ -286,6 +293,9 @@ $ani-delay: 1s;
   border-radius: 5px;
   z-index: 1;
   position: absolute;
+}
+.preview-photo:hover{
+  box-shadow: #081C15 3px 3px 3px;
 }
 
 .photo-sub-header{
