@@ -20,7 +20,7 @@ const About = () => {
                 >
                     <div className='about-left-text'>
                         <p>
-                        I am a software developer with a desire and passion for all things creative, from design, photography, music and problem solving. Channeling all I have learnt from these interests and hobbies into my journey through Enspiral Dev Academy and into the tech industry has been the best decision I have ever made.
+                        I am a software developer with a desire and passion for all things creative. From design, photography, music and problem solving.
                         </p>
                     </div>
                     <div className='about-right-text'>
