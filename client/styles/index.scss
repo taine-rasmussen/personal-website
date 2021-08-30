@@ -308,20 +308,40 @@ $ani-delay: 1s;
 }
 
 // ---- Photo ----
-// ---- Photography ----
-.photography-container{
-display: flex;
-flex-wrap: wrap;
+// ---- portrait ----
+.portrait-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.portrait-img-container{
+  margin: 1rem;
 }
 
-.photography-img{
-  width: 200px;
-  height: 300;
+.street-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.street-img-container{
   margin: 1rem;
+}
+
+.portrait-img{
+  max-width: 250px;
+  min-height: 400px;
   border: 3px solid #1B4332;
   border-radius: 5px;
 }
-// ---- Photography ----
+
+.landscape-img{
+  max-width: 600px;
+  min-height: 300px;
+  border: 3px solid #1B4332;
+  border-radius: 5px;
+}
+// ---- portrait ----
+
 
 // ---- Tech ----
 .tech-container{
