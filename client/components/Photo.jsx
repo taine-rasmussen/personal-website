@@ -20,7 +20,7 @@ const Photo = () => {
                 </Link>
             </div>
                 
-                <Link to='photography'><button className='is-btn'>to photos</button></Link>
+               
             </section>
         </>
     )
