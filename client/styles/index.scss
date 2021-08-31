@@ -586,10 +586,12 @@ $ani-delay: 1s;
 
 .pulsate-bck:hover{
   background-color: #F8F0E3;
+  
+  &.pulsate-bck span{
+    color: #1B4332;
+  }
 }
-.pulsate-bck span:hover{
-  color: #1B4332;
-}
+
 
  @-webkit-keyframes pulsate-bck {
   0% {
