@@ -16,23 +16,23 @@ const Street = () => {
 
     return(
         <>
-            <div className='street-container'> 
+                <div className='street-container'> 
 
-                <div className='street-margin-top-container'>
-                    <h1>Street working</h1>
+                    <div className='street-margin-top-container'>
+                        <h1>Street working</h1>
+                    </div>
+
+                    <div className='street-margin-side-container'>
+                        <button onClick={changeView} className='is-btn'>Change View</button>
+                        <Link to='/'> 
+                            <button className='is-btn'>Home</button>
+                        </Link>
+                    </div>
                 </div>
 
-                <div className='street-margin-side-container'>
-                    <button onClick={changeView} className='is-btn'>Change View</button>
-                    <Link to='/'> 
-                        <button className='is-btn'>Home</button>
-                    </Link>
-                </div>
+            <div className='street-photos-container'>
+                {view ? <Gallery /> : <Preview />}
             </div>
-
-                <div className='street-photos-container'>
-                    {view ? <Gallery /> : <Preview />}
-                </div>
         </>
     )
 }
