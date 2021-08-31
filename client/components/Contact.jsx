@@ -15,6 +15,12 @@ const Contact = () => {
           e.target.reset()
       }
 
+      // Smooth scrolls back to top of webpage
+      const topFunction = () => {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+
     return(
         <div className='test'>
         <section className='contact-container'>
@@ -51,6 +57,9 @@ const Contact = () => {
                     </div>
                 </form>
             </section >
+                <div className='pulsate-bck-container'>
+                    <button className='pulsate-bck myBtn' onClick={topFunction}><span>⇧</span></button>
+                </div>
         </div>
     )
 }

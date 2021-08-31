@@ -170,18 +170,17 @@ $ani-delay: 1s;
   background-color: #1B4332;
   min-height: 70vh;
   max-width: 100vw;
-
-}
-
-.about-header-container{
-  // display: flex;
-  // justify-content: center;
 }
 
 .about-header{
-  margin-left: 55px;
-  margin-top: -0.5rem;
+  margin-left: 45px;
+  margin-right: 10px;
+  width: 470px;
+  height: 85px;
 }
+
+
+
 
 .about-text-container{
   display: flex;
@@ -196,7 +195,7 @@ $ani-delay: 1s;
 
 .about-right-text{
   margin: 5vw;
-  margin-top: 10rem;
+  margin-top: 25rem;
 }
 
 .about-text{
@@ -350,9 +349,11 @@ $ani-delay: 1s;
 // ---- Tech ----
 .tech-container{
   background-color:  #1B4332;
+
   min-height: 100vh;
   max-width: 100vw;
   justify-content: center;
+  margin-bottom: 15rem;
 }
 
 
@@ -381,6 +382,7 @@ $ani-delay: 1s;
   justify-content: center;
   margin: 5vw;
   margin-top: 2rem;
+  margin-bottom: 13rem;
 }
 
 .tech-label-single{
@@ -429,11 +431,13 @@ $ani-delay: 1s;
 // ---- Tech ----
 // ---- Contact ---- 
 .test{
-  min-height: 100vh;
+  min-height: 80vh;
   max-width: 100vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+   background-color: #F8F0E3;
+   border: 2px black solid;
 }
 
 .contact-container{
@@ -559,3 +563,64 @@ $ani-delay: 1s;
 
 
 // copy pasting more randomg css animations instead of doing work
+.pulsate-bck-container{
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.pulsate-bck {
+	-webkit-animation: pulsate-bck 0.9s ease-in-out infinite both;
+	        animation: pulsate-bck 0.9s ease-in-out infinite both;
+          
+          width: 4vw;
+          height: 4vw;
+          border-radius: 50%;
+          border: 3px solid #081C15;
+          background-color: #1B4332;
+}
+.pulsate-bck span{
+  font-size: 2rem;
+  color: #F8F0E3;
+}
+
+.pulsate-bck:hover{
+  background-color: #F8F0E3;
+}
+.pulsate-bck span:hover{
+  color: #1B4332;
+}
+
+ @-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
