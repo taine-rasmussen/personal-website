@@ -4,27 +4,29 @@ const Gallery = () => {
 
     return(
         <>
-            <h1>Gallery Working</h1>
+            <div className='gallery-header-container'>
+                <h1>Gallery</h1>
+            </div>
 
-            <div className='street-container'>
-                <div className='street-img-container'>
-                    <img src='/Imgs/street2.jpg' alt='' className='portrait-img' />
-                </div>
-                <div className='street-img-container'>
-                    <img src='/Imgs/travel1.jpg' alt='' className='landscape-img'/>
-                </div>
-                <div className='street-img-container'>
-                    <img src='/Imgs/travel2.jpg' alt='' className='portrait-img'/>
-                </div>
-                <div className='street-img-container'>
-                    <img src='/Imgs/travel3.jpg' alt='' className='portrait-img'/>
-                </div>
-                <div className='street-img-container'>
-                    <img src='/Imgs/travel4.jpg' alt='' className='landscape-img'/>
-                </div>
-                <div className='street-img-container'>
-                    <img src='/Imgs/street1.jpg' alt='' className='portrait-img'/>
-                </div>
+                <div className='gallery-container'>
+                    <div className='gallery-img-container'>
+                        <img src='/Imgs/street2.jpg' alt='' className='gallery-portrait' />
+                    </div>
+                    <div className='gallery-img-container'>
+                        <img src='/Imgs/travel1.jpg' alt='' className='gallery-landscape'/>
+                    </div>
+                    <div className='gallery-img-container'>
+                        <img src='/Imgs/travel2.jpg' alt='' className='gallery-portrait'/>
+                    </div>
+                    <div className='gallery-img-container'>
+                        <img src='/Imgs/travel3.jpg' alt='' className='gallery-portrait'/>
+                    </div>
+                    <div className='gallery-img-container'>
+                        <img src='/Imgs/travel4.jpg' alt='' className='gallery-landscape'/>
+                    </div>
+                    <div className='gallery-img-container'>
+                        <img src='/Imgs/street1.jpg' alt='' className='gallery-portrait'/>
+                    </div>
             </div>
         </>
     )
