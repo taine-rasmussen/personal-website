@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
+//Components
+import Gallery from './Gallery'
+import Preview from './Preview'
+
 const Portrait = () => {
 
     return(

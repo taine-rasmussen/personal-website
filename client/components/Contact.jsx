@@ -1,6 +1,7 @@
 import React from 'react'
 import { sendForm } from 'emailjs-com'
-import Footer from './Footer'
+
+
 
 const Contact = () => {
 
