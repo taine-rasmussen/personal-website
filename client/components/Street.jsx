@@ -14,11 +14,15 @@ const Street = () => {
       view ? setView(false) : setView(true)
     }
 
+
+        // bg colour in margins(one of the dark ones with the darkest being a border colour)
+        // instead of buttons for links use the same header from the photo component
+        /// social icons top right?
     return(
         <>
                 <div className='street-container'> 
                     <div className='street-margin-top-container'>
-                        <h1>Street working</h1>
+                        <h1 className='street-header'>Street working</h1>
                     </div>
 
                     <div className='street-margin-side-container'>
