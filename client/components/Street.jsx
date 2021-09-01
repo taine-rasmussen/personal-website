@@ -15,8 +15,7 @@ const Street = () => {
     }
 
 
-        // bg colour in margins(one of the dark ones with the darkest being a border colour)
-        // instead of buttons for links use the same header from the photo component
+
         /// social icons top right?
     return(
         <>
