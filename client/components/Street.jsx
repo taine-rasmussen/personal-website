@@ -26,10 +26,13 @@ const Street = () => {
                     </div>
 
                     <div className='street-margin-side-container'>
-                        <button onClick={changeView} className='is-btn'>Change View</button>
-                        <Link to='/'> 
-                            <button className='is-btn'>Home</button>
-                        </Link>
+                        <div>
+                            <input type="checkbox" id="toggle" onClick={changeView}/>
+                            <label for="toggle"></label>
+                        </div>
+                            <Link to='/'> 
+                                <h2 className='street-sub-header'>Home</h2>
+                            </Link>
                     </div>
                 </div>
 
