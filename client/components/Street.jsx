@@ -17,7 +17,6 @@ const Street = () => {
     return(
         <>
                 <div className='street-container'> 
-
                     <div className='street-margin-top-container'>
                         <h1>Street working</h1>
                     </div>
