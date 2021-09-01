@@ -534,14 +534,14 @@ $ani-delay: 1s;
     padding-left: 0px;
   }
   li {
-    color: #1B4332;
+    color: #081C15;
     list-style-type: none;
     display: inline-block;
     width: 50px;
     height: 50px;
     line-height: 50px;
     padding: 1%;
-    border: 1px solid #1B4332;
+    border: 3px solid #081C15;
     cursor: pointer;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -642,12 +642,12 @@ html {
 }
 
 .street-sub-header{
-  text-shadow: #40916C 1.2px 1.2px 0;
+  text-shadow: #F8F0E3 0.7px 0.7px 0;
   font-size: 3.5rem;
 }
 .street-sub-header:hover{
-  color: #40916C;
-  text-shadow: #081C15 2px 2px 0;
+  color: #F8F0E3;
+  text-shadow: #081C15 1px 1px 0;
 }
 
 .street-margin-top-container{
@@ -676,6 +676,10 @@ html {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.street-social-container{
+
 }
 
 input[type="checkbox"] {

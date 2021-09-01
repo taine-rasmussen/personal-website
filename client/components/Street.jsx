@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 //Components
 import Gallery from './Gallery'
 import Preview from './Preview'
+import Footer from './Footer'
 
 const Street = () => {
 
@@ -18,12 +19,19 @@ const Street = () => {
       view ? setView(false) : setView(true) 
       changeHeader()
     }
+
     // Handles changing page header to match gallery or preview
     const changeHeader = () => {
+
+        // header ? setHeader('Preview') : setHeader('Gallery') - currently changes to preview but does not change back
+
+        //current working solution
         if( header === 'Gallery'){
             setHeader('Preview')
         } else (setHeader('Gallery'))
     }
+
+
 
 
         /// social icons top right?
@@ -33,12 +41,14 @@ const Street = () => {
                     <div className='street-margin-top-container'>
                         <h1 className='street-header'>{header}</h1>
                     </div>
-
                     <div className='street-margin-side-container'>
                         <div>
                             <input type="checkbox" id="toggle" onClick={changeView} />
                             <label for="toggle"></label>
                         </div>
+                            <div className='street-social-container'>
+                                 <Footer />
+                            </div>
                             <Link to='/'> 
                                 <h2 className='street-sub-header'>Home</h2>
                             </Link>
