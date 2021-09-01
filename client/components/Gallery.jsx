@@ -4,10 +4,6 @@ const Gallery = () => {
 
     return(
         <>
-            <div className='gallery-header-container'>
-                <h1 className='gallery-header'>Gallery</h1>
-            </div>
-
                 <div className='gallery-container'>
                     <div className='gallery-img-container'>
                         <img src='/Imgs/street2.jpg' alt='' className='gallery-portrait' />
