@@ -23,12 +23,6 @@ const Street = () => {
             setHeader('Preview')
         } else (setHeader('Gallery'))
     }
-
-     // Handles where on webpage user should land
-     const navToAbout = () => {
-        document.body.scrollTop = 100000; // For Safari
-        document.documentElement.scrollTop = 100000; // For Chrome, Firefox, IE and Opera
-      }
     
     // build links to all sections of website using that DOM manipulation used in scroll btn
     return(
