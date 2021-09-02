@@ -13,33 +13,49 @@ const Street = () => {
 
     const Gallery = 'Street Gallery'
     const Preview = 'Street Preview'
+    const headerClass = document.getElementsByClassName('street-header')
+
 
         // Handles changing page header to match gallery or preview
         const changeHeader = () => {
             header === Gallery ? setHeader(Preview) : setHeader(Gallery)
         }
-        
+
+        // Testing re how create style changes on state change
+        const headerStyle = () => {
+           console.log(headerClass)
+        }
+
         // Handling state change on btn click
         const changeView = () => {
             view ? setView(false) : setView(true) 
             changeHeader()
         }
+
         
     // build links to all sections of website using that DOM manipulation used in scroll btn
     // Landing background set to image of guy walking in paris?
     // using images to fill empty places on webpage - overlapping component borders would be nice.
+
+    // Styling on this page:
+    // Remove side container - It is too disracting and makes CSS more difficult
+    // Move all contents to top container - Explore menu drop downs to save space
+
+    // Use CSS animations on header state change 
+    // Idea 1: Create const with value of objcet, object containing CSS
+    // On state change animation is triggered via onClick then try use .Then to trigger the gallery / preview switch
     return(
             <>
                 <div className='street-container'> 
                     <div className='street-margin-top-container'>
                         <h1 className='street-header'
-                        data-aos='fade-right'
-                        data-aos-duration={1500}
-                        data-aos-delay={100}>{header}</h1>
+                            data-aos='fade-right'
+                            data-aos-duration={1500}
+                            data-aos-delay={100}>{header}</h1>
                     </div>
                     <div className='street-margin-side-container'>
                         <div>
-                            <input type="checkbox" id="toggle" onClick={changeView} />
+                            <input type="checkbox" id="toggle" onClick={headerStyle}/>
                             <label htmlFor="toggle" className='street-label'></label>
                         </div>
                             <div className='street-social-container'>
