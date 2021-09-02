@@ -11,9 +11,6 @@ const Street = () => {
     const [view, setView] = useState(true)
     const [header, setHeader] = useState('Gallery')
 
-
-
-
     // Handling state change on btn click
     const changeView = () => {
       view ? setView(false) : setView(true) 
@@ -30,11 +27,7 @@ const Street = () => {
             setHeader('Preview')
         } else (setHeader('Gallery'))
     }
-
-
-
-
-        /// social icons top right?
+    
     return(
         <>
                 <div className='street-container'> 
@@ -51,6 +44,9 @@ const Street = () => {
                             </div>
                             <Link to='/'> 
                                 <h2 className='street-sub-header'>Home</h2>
+                            </Link>
+                            <Link to='/portrait'> 
+                                <h2 className='street-sub-header'>Portrait</h2>
                             </Link>
                     </div>
                 </div>
