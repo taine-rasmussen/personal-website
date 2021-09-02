@@ -29,7 +29,10 @@ const Street = () => {
         <>
                 <div className='street-container'> 
                     <div className='street-margin-top-container'>
-                        <h1 className='street-header'>{header}</h1>
+                        <h1 className='street-header'
+                        data-aos='fade-right'
+                        data-aos-duration={1500}
+                        data-aos-delay={100}>{header}</h1>
                     </div>
                     <div className='street-margin-side-container'>
                         <div>
