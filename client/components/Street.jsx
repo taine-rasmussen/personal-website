@@ -37,7 +37,7 @@ const Street = () => {
                     <div className='street-margin-side-container'>
                         <div>
                             <input type="checkbox" id="toggle" onClick={changeView} />
-                            <label for="toggle"></label>
+                            <label for="toggle" className='street-label'></label>
                         </div>
                             <div className='street-social-container'>
                                  <Footer />
