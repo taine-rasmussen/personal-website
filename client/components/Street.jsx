@@ -9,7 +9,7 @@ import Footer from './Footer'
 const Street = () => {
 
     const [view, setView] = useState(true)
-    const [header, setHeader] = useState('Gallery')
+    const [header, setHeader] = useState('Street Gallery')
 
     // Handling state change on btn click
     const changeView = () => {
@@ -19,9 +19,9 @@ const Street = () => {
 
     // Handles changing page header to match gallery or preview
     const changeHeader = () => {
-        if( header === 'Gallery'){
-            setHeader('Preview')
-        } else (setHeader('Gallery'))
+        if( header === 'Street Gallery'){
+            setHeader('Street Preview')
+        } else (setHeader('Street Gallery'))
     }
     
     // build links to all sections of website using that DOM manipulation used in scroll btn
