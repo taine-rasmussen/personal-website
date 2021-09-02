@@ -5,7 +5,7 @@ const About = () => {
 
     return(
         <> 
-            <section className='about-container'>
+            <section className='about-container' id='testing' >
 
                 <div className='about-header-container'>
                     <h1 className='about-header postioned-top-left' data-aos='fade-right'
