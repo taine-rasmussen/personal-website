@@ -1,43 +1,60 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 
 //Components
-import Gallery from './Gallery'
-import Preview from './Preview'
+// import Gallery from './streetGallery' need to be changed to portait once page made
+// import Preview from './streetPreview'
+import Footer from './Footer'
 
 const Portrait = () => {
 
-    return(
-        <> 
-            <h1>Portrait working</h1>
+    const [view, setView] = useState(true)
+    const [header, setHeader] = useState('Portrait Gallery')
 
-                <div className='portrait-container'>
-                    <div className='portrait-img-container'>
-                        <img src='/Imgs/Bri1.jpg' alt='' className='portrait-img' />
+    // Handling state change on btn click
+    const changeView = () => {
+      view ? setView(false) : setView(true) 
+      changeHeader()
+    }
+
+    // Handles changing page header to match gallery or preview
+    const changeHeader = () => {
+        if( header === 'Portrait Gallery'){
+            setHeader('Portrait Preview')
+        } else (setHeader('Portrait Gallery'))
+    }
+    
+    // build links to all sections of website using that DOM manipulation used in scroll btn
+    return(
+        <>
+                <div className='street-container'> 
+                    <div className='street-margin-top-container'>
+                        <h1 className='street-header'
+                        data-aos='fade-right'
+                        data-aos-duration={1500}
+                        data-aos-delay={100}>{header}</h1>
                     </div>
-                    <div className='portrait-img-container'>
-                        <img src='/Imgs/portrait2.jpg' alt='' className='portrait-img'/>
-                    </div>
-                    <div className='portrait-img-container'>
-                        <img src='/Imgs/Bri2.jpg' alt='' className='portrait-img'/>
-                    </div>
-                    <div className='portrait-img-container'>
-                        <img src='/Imgs/portrait3.jpg' alt='' className='portrait-img'/>
-                    </div>
-                    <div className='portrait-img-container'>
-                        <img src='/Imgs/Bri4.jpg' alt='' className='portrait-img'/>
-                    </div>
-                    <div className='portrait-img-container'>
-                        <img src='/Imgs/Bri3.jpg' alt='' className='portrait-img'/>
+                    <div className='street-margin-side-container'>
+                        <div>
+                            <input type="checkbox" id="toggle" onClick={changeView} />
+                            <label htmlFor="toggle" className='street-label'></label>
+                        </div>
+                            <div className='street-social-container'>
+                                 <Footer />
+                            </div>
+                            <Link to='/'> 
+                                <h2 className='street-sub-header'>Home</h2>
+                            </Link>
+                            <Link to='/street'> 
+                                <h2 className='street-sub-header'>Street</h2>
+                            </Link>
                     </div>
                 </div>
 
-
-
-            <Link to='/'> 
-                <button className='is-btn'>Home</button>
-            </Link>
+            <div className='street-photos-container border'>
+                {/* {view ? <Gallery /> : <Preview />} */}
+            </div>
         </>
     )
 }

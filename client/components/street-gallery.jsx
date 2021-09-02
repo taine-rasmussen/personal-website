@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Gallery = () => {
+const Streetgallery = () => {
 
     return(
         <>
@@ -28,4 +28,4 @@ const Gallery = () => {
     )
 }
 
-export default Gallery
+export default Streetgallery
