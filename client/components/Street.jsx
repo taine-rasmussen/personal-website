@@ -19,15 +19,12 @@ const Street = () => {
 
     // Handles changing page header to match gallery or preview
     const changeHeader = () => {
-
-        // header ? setHeader('Preview') : setHeader('Gallery') - currently changes to preview but does not change back
-
-        //current working solution
         if( header === 'Gallery'){
             setHeader('Preview')
         } else (setHeader('Gallery'))
     }
     
+    // build links to all sections of website using that DOM manipulation used in scroll btn
     return(
         <>
                 <div className='street-container'> 

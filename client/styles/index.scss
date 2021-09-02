@@ -660,17 +660,19 @@ html {
 }
 .street-margin-side-container{
   // border: 4px solid #081C15;
-  max-width: 10vw;
+  max-width: 14vw;
   min-height: 100vh;
   background-color: #1B4332;
   border-right: #081C15 8px solid;
+
+
 }
 
 .street-photos-container{
   // border: 4px solid #081C15;
   max-width: 89vw;
   min-height: 89vh;
-  margin-left: 9.5rem;
+  margin-left: 13.5rem;
   margin-top: -50rem;
 
   display: flex;
@@ -681,6 +683,7 @@ html {
 .street-social-container{
 
 }
+
 
 input[type="checkbox"] {
 	visibility: hidden;
