@@ -11,22 +11,25 @@ const Street = () => {
     const [view, setView] = useState(true)
     const [header, setHeader] = useState('Street Gallery')
 
-    // Handling state change on btn click
-    const changeView = () => {
-      view ? setView(false) : setView(true) 
-      changeHeader()
-    }
+    const Gallery = 'Street Gallery'
+    const Preview = 'Street Preview'
 
-    // Handles changing page header to match gallery or preview
-    const changeHeader = () => {
-        if( header === 'Street Gallery'){
-            setHeader('Street Preview')
-        } else (setHeader('Street Gallery'))
-    }
-    
+        // Handles changing page header to match gallery or preview
+        const changeHeader = () => {
+            header === Gallery ? setHeader(Preview) : setHeader(Gallery)
+        }
+        
+        // Handling state change on btn click
+        const changeView = () => {
+            view ? setView(false) : setView(true) 
+            changeHeader()
+        }
+        
     // build links to all sections of website using that DOM manipulation used in scroll btn
+    // Landing background set to image of guy walking in paris?
+    // using images to fill empty places on webpage - overlapping component borders would be nice.
     return(
-        <>
+            <>
                 <div className='street-container'> 
                     <div className='street-margin-top-container'>
                         <h1 className='street-header'
