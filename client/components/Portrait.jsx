@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-
 //Components
 // import Gallery from './streetGallery' need to be changed to portait once page made
 // import Preview from './streetPreview'
@@ -33,9 +32,9 @@ const Portrait = () => {
                 <div className='street-container'> 
                     <div className='street-margin-top-container'>
                         <h1 className='street-header'
-                        data-aos='fade-right'
-                        data-aos-duration={1500}
-                        data-aos-delay={100}>{header}</h1>
+                            data-aos='fade-right'
+                            data-aos-duration={1500}
+                            data-aos-delay={100}>{header}</h1>
                     </div>
                     <div className='street-margin-side-container'>
                         <div>
