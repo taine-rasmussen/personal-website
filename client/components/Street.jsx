@@ -48,7 +48,7 @@ const Street = () => {
                     </div>
                 </div>
 
-            <div className='street-photos-container'>
+            <div className='street-photos-container border'>
                 {view ? <Gallery /> : <Preview />}
             </div>
         </>
