@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 //Components
-import Gallery from './Gallery'
-import Preview from './Preview'
+import Streetgallery from './street-gallery'
+import Streetpreview from './street-preview'
 import Footer from './Footer'
 
 const Street = () => {
@@ -37,7 +37,7 @@ const Street = () => {
                     <div className='street-margin-side-container'>
                         <div>
                             <input type="checkbox" id="toggle" onClick={changeView} />
-                            <label for="toggle" className='street-label'></label>
+                            <label htmlFor="toggle" className='street-label'></label>
                         </div>
                             <div className='street-social-container'>
                                  <Footer />
@@ -52,7 +52,7 @@ const Street = () => {
                 </div>
 
             <div className='street-photos-container border'>
-                {view ? <Gallery /> : <Preview />}
+                {view ? <Streetgallery /> : <Streetpreview />}
             </div>
         </>
     )

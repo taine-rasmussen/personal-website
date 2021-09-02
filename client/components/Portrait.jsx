@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 
 //Components
-import Gallery from './Gallery'
-import Preview from './Preview'
+// import Gallery from './streetGallery' need to be changed to portait once page made
+// import Preview from './streetPreview'
 import Footer from './Footer'
 
 const Portrait = () => {
@@ -38,7 +38,7 @@ const Portrait = () => {
                     <div className='street-margin-side-container'>
                         <div>
                             <input type="checkbox" id="toggle" onClick={changeView} />
-                            <label for="toggle" className='street-label'></label>
+                            <label htmlFor="toggle" className='street-label'></label>
                         </div>
                             <div className='street-social-container'>
                                  <Footer />
@@ -53,7 +53,7 @@ const Portrait = () => {
                 </div>
 
             <div className='street-photos-container border'>
-                {view ? <Gallery /> : <Preview />}
+                {/* {view ? <Gallery /> : <Preview />} */}
             </div>
         </>
     )
