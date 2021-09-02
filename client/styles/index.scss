@@ -701,19 +701,19 @@ label {
 	border: 1.5px solid;
 	border-radius: 99em;
 	position: relative;
-	transition: transform .75s ease-in-out;
+	transition: transform .20s ease-in-out;
 	transform-origin: 50% 50%;
 	cursor: pointer;
 	
 	&:before {
-		transition: transform .75s ease;
-		transition-delay: .5s;
+		transition: transform 0.20s ease;
+		transition-delay: 0s;
 		content: "";
 		display: block;
 		position: absolute;
 		width: 13.5px;
 		height: 13.5px;
-		background-color: #000;
+		background-color: #081C15;
 		border-radius: 50%;
 		top: 3px;
 		left: 3px;
