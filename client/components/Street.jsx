@@ -32,6 +32,13 @@ const Street = () => {
             changeHeader()
         }
 
+        // Handles setting webpage on load to top
+        const setWebpageView = () => {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+        setWebpageView()
+
         
     // build links to all sections of website using that DOM manipulation used in scroll btn
     // Landing background set to image of guy walking in paris?
@@ -44,6 +51,8 @@ const Street = () => {
     // Use CSS animations on header state change 
     // Idea 1: Create const with value of objcet, object containing CSS
     // On state change animation is triggered via onClick then try use .Then to trigger the gallery / preview switch
+
+    //try running function onLoad that sets webpage view point to top of page
     return(
             <>
                 <div className='street-container'> 
@@ -67,6 +76,7 @@ const Street = () => {
                             </div>
 
                             <div className='street-toggle-container'>
+                                <h3>Toggle View</h3>
                                 <input type="checkbox" id="toggle" onClick={changeView}/>
                                 <label htmlFor="toggle" className='street-label'></label>
                             </div>
