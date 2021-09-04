@@ -33,9 +33,11 @@ const Street = () => {
         }
 
         // Handles setting webpage on load to top
-        const setView = () => {
-            
+        const setWebpageView = () => {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+        setWebpageView()
 
         
     // build links to all sections of website using that DOM manipulation used in scroll btn
