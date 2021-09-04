@@ -641,6 +641,15 @@ html {
   font-size: 6.5rem;
 }
 
+.street-sub-header-container{
+  border-left: 5px solid #081C15;
+  margin-left: 52rem;
+  margin-top: 1rem;
+  height: 140px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: fixed;
+}
 .street-sub-header{
   text-shadow: #40916C 0.7px 0.7px 0;
   font-size: 3rem;
@@ -683,19 +692,13 @@ html {
 }
 
 
-.street-sub-header-container{
-  border-left: 5px solid #081C15;
-  margin-left: 11.5rem;
-  margin-top: 1rem;
-  height: 140px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
 .street-toggle-container{
   border-left: 5px solid #081C15;
-  margin-left: 0rem;
+  margin-left: 75rem;
   height: 135px;
   padding-left: 80px;
+  position: fixed;
+
 }
 
 .border{
