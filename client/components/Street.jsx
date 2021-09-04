@@ -76,9 +76,9 @@ const Street = () => {
                             </div>
 
                             <div className='street-toggle-container'>
-                                <h3>Toggle View</h3>
                                 <input type="checkbox" id="toggle" onClick={changeView}/>
                                 <label htmlFor="toggle" className='street-label'></label>
+                                <h3 className='street-toggle-header'>Toggle View</h3>
                             </div>
                     </div>
                 </div>
