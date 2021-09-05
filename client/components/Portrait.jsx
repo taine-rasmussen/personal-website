@@ -22,30 +22,51 @@ const Portrait = () => {
         changeHeader()
         }
 
+         // Handles setting webpage on load to top
+         const setWebpageView = () => {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+        setWebpageView()
+
     return(
         <>
-                <div className='street-container'> 
-                    <div className='street-margin-top-container'>
-                        <h1 className='street-header'
+                      <div className='portrait-container'> 
+                    <div className='portrait-margin-top-container'>
+                        <h1 className='portrait-header'
                             data-aos='fade-right'
                             data-aos-duration={1500}
                             data-aos-delay={100}>{header}</h1>
-                    </div>
-                    <div className='street-margin-side-container'>
-                        <div>
-                            <input type="checkbox" id="toggle" onClick={changeView} />
-                            <label htmlFor="toggle" className='street-label'></label>
-                        </div>
-                            <Link to='/'> 
-                                <h2 className='street-sub-header'>Home</h2>
-                            </Link>
-                            <Link to='/street'> 
-                                <h2 className='street-sub-header'>Street</h2>
-                            </Link>
+
+                            <div className='portrait-sub-header-container'>
+                                <div className='portrait-left-side'>
+                                    <Link to='/'> 
+                                        <h2 className='portrait-sub-header'
+                                            data-aos='fade-left'
+                                            data-aos-duration={1500}
+                                            data-aos-delay={100}>Home</h2>
+                                    </Link>
+                                </div>
+                                <div className='portrait-right-side'>
+                                    <Link to='/street'> 
+                                        <h2 className='portrait-sub-header'
+                                            data-aos='fade-right'
+                                            data-aos-duration={1500}
+                                            data-aos-delay={100}>Street</h2>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            <div className='portrait-toggle-container'>
+                                <input type="checkbox" id="toggle" onClick={changeView}/>
+                                <label htmlFor="toggle" className='portrait-label'></label>
+                                <h3 className='portrait-toggle-header'>Toggle View</h3>
+                            </div>
                     </div>
                 </div>
 
-            <div className='street-photos-container border'>
+            <div className='portrait-photos-container border'>
                 {view ? <PortraitGallery /> : <PortraitPreview />}
             </div>
         </>
