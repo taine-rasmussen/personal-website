@@ -64,12 +64,17 @@ const Street = () => {
                             <div className='street-sub-header-container'>
                                 <div className='street-left-side'>
                                     <Link to='/'> 
-                                        <h2 className='street-sub-header'>Home</h2>
+                                        <h2 className='street-sub-header'
+                                        data-aos='fade-left'
+                                        data-aos-duration={1500}
+                                        data-aos-delay={100}>Home</h2>
                                     </Link>
                                 </div>
                                 <div className='street-right-side'>
                                     <Link to='/portrait'> 
-                                        <h2 className='street-sub-header'>Portrait</h2>
+                                        <h2 className='street-sub-header'       data-aos='fade-right'
+                                        data-aos-duration={1500}
+                                        data-aos-delay={100}>Portrait</h2>
                                     </Link>
                                 </div>
                             </div>
