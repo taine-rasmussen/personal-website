@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 //Components
 import Streetgallery from './street-gallery'
 import Streetpreview from './street-preview'
-import Footer from './Footer'
 
 const Street = () => {
 
