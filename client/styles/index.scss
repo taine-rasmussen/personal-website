@@ -920,7 +920,6 @@ input[type="checkbox"]{
 .preview-container{
   min-height: 89vh;
   max-width: 100vw;
-  border: 5px solid black;
 }
 
 .preview-img-stack-container{
@@ -931,25 +930,26 @@ input[type="checkbox"]{
 }
 
 .preview-main-img-container{
-  border: 5px solid Yellow;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+
+  margin-top: 1rem;
 }
 
 .preview-img-container{
-
+  margin: 0.5rem;
 }
 
 .preview-main-img{
   height: 400px;
-  width: 600px;
+  width: 300px;
 }
 
 .preview-img{
   height: 200px;
-  width: 300px;
+  width: 150px;
 }
 
 // ---- Portrait-Preview ----
