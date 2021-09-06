@@ -18,8 +18,8 @@ const Portrait = () => {
         
         // Handling state change on btn click
         const changeView = () => {
-        view ? setView(false) : setView(true) 
-        changeHeader()
+            view ? setView(false) : setView(true) 
+            changeHeader()
         }
 
          // Handles setting webpage on load to top
@@ -39,8 +39,11 @@ const Portrait = () => {
                             data-aos-duration={1500}
                             data-aos-delay={100}>{header}</h1>
 
-                            <div className='portrait-sub-header-container'>
-                                <div className='portrait-left-side'>
+                            <div className='portrait-sub-header-container'
+                                 data-aos='fade'
+                                 data-aos-duration={1500}
+                                 data-aos-delay={200}>
+                                <div className='portrait-left-side' >
                                     <Link to='/'> 
                                         <h2 className='portrait-sub-header'
                                             data-aos='fade-left'
@@ -58,7 +61,10 @@ const Portrait = () => {
                                 </div>
                             </div>
 
-                            <div className='portrait-toggle-container'>
+                            <div className='portrait-toggle-container' 
+                                 data-aos='fade-down'
+                                 data-aos-duration={1500}
+                                 data-aos-delay={50}>
                                 <input type="checkbox" id="toggle" onClick={changeView}/>
                                 <label htmlFor="toggle" className='portrait-label'></label>
                                 <h3 className='portrait-toggle-header'>Toggle View</h3>

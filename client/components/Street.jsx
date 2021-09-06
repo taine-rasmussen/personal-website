@@ -61,7 +61,10 @@ const Street = () => {
                             data-aos-duration={1500}
                             data-aos-delay={100}>{header}</h1>
 
-                            <div className='street-sub-header-container'>
+                            <div className='street-sub-header-container' 
+                                 data-aos='fade'
+                                 data-aos-duration={1500}
+                                 data-aos-delay={200}>
                                 <div className='street-left-side'>
                                     <Link to='/'> 
                                         <h2 className='street-sub-header'
@@ -79,7 +82,10 @@ const Street = () => {
                                 </div>
                             </div>
 
-                            <div className='street-toggle-container'>
+                            <div className='street-toggle-container' 
+                                 data-aos='fade-down'
+                                 data-aos-duration={1500}
+                                 data-aos-delay={50}>
                                 <input type="checkbox" id="toggle" onClick={changeView}/>
                                 <label htmlFor="toggle" className='street-label'></label>
                                 <h3 className='street-toggle-header'>Toggle View</h3>
