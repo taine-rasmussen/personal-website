@@ -1,11 +1,59 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Streetpreview = () => {
+    const [mainImg, setMainImg] = useState('Imgs/street1.jpg')
 
-    return(
-        <>
-            <h1>Street Preview Working</h1>
-        </>
+    // If you are reading this please help me refactor this mess
+    const changeMainImg1= () => {
+        return setMainImg("Imgs/street1.jpg")
+    }
+    const changeMainImg2= () => {
+        return setMainImg("Imgs/street2.jpg")
+    }
+    const changeMainImg3= () => {
+        return setMainImg("Imgs/travel1.jpg")
+    }
+    const changeMainImg4= () => {
+        return setMainImg("Imgs/travel2.jpg")
+    }
+    const changeMainImg5= () => {
+        return setMainImg("Imgs/travel3.jpg")
+    }
+    const changeMainImg6= () => {
+        return setMainImg("Imgs/travel4.jpg")
+    }
+   
+
+return (
+    <>
+        <section className='preview-container'>
+            <div className='preview-main-img-container'>
+                <img src={mainImg} alt='portrait' className='preview-main-img' />
+            </div>
+
+            <div className='preview-img-stack-container'>
+                <div className='preview-img-container'>
+                    <img src='Imgs/street1.jpg' alt='portrait' className='preview-img' id='test' onClick={changeMainImg1}/>
+                </div>
+                <div className='preview-img-container'>
+                    <img src='Imgs/street2.jpg' alt='portrait' className='preview-img' onClick={changeMainImg2}/>
+                </div>
+                <div className='preview-img-container'>
+                    <img src='Imgs/travel1.jpg' alt='portrait' className='preview-img' onClick={changeMainImg3}/>
+                </div>
+                <div className='preview-img-container'>
+                    <img src='Imgs/travel2.jpg' alt='portrait' className='preview-img' onClick={changeMainImg4}/>
+                </div>
+                <div className='preview-img-container'>
+                    <img src='Imgs/travel3.jpg' alt='portrait' className='preview-img' onClick={changeMainImg5}/>
+                </div>
+                <div className='preview-img-container'>
+                    <img src='Imgs/travel4.jpg' alt='portrait' className='preview-img' onClick={changeMainImg6}/>
+                </div>
+            </div>
+
+        </section>
+    </>
     )
 }
 
