@@ -913,6 +913,32 @@ input[type="checkbox"]{
   max-width: 320px;
 }
 .gallery-taller{
-  
+ 
 }
 // ---- Portrait ----
+// ---- Portrait-Preview ----
+.preview-container{
+  min-height: 89vh;
+  max-width: 100vw;
+  border: 5px solid black;
+}
+
+.preview-img-stack-container{
+
+}
+
+.preview-img-container{
+
+}
+
+.preview-main-img{
+  height: 400px;
+  width: 600px;
+}
+
+.preview-img{
+  height: 200px;
+  width: 300px;
+}
+
+// ---- Portrait-Preview ----

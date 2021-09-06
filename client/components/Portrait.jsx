@@ -9,7 +9,10 @@ import PortraitPreview from './portrait-preview'
 const Portrait = () => {
 
     const [view, setView] = useState(true)
-    const [header, setHeader] = useState('Portrait Gallery')
+    const [header, setHeader] = useState('Portrait Preview')
+
+    const Gallery = 'Portrait Gallery'
+    const Preview = 'Portrait Preview'
 
         // Handles changing page header to match gallery or preview
         const changeHeader = () => {
@@ -73,7 +76,7 @@ const Portrait = () => {
                 </div>
 
             <div className='portrait-photos-container border'>
-                {view ? <PortraitGallery /> : <PortraitPreview />}
+                {view ? <PortraitPreview /> : <PortraitGallery />}
             </div>
         </>
     )
