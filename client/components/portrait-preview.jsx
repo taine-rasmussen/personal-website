@@ -15,17 +15,17 @@ const PortraitPrview = () => {
             default: {
                 height: '400px',
                 width: '300px',
-                border: '4px solid black'
+                border: '4px solid #081C15'
             },
             wider: {
                 height: '400px',
                 width: '325px',
-                border: '4px solid black', 
+                border: '4px solid #081C15', 
             },
             taller: {
                 height: '420px',
                 width: '280px',
-                border: '4px solid black'
+                border: '4px solid #081C15'
             }
         }
 
@@ -56,6 +56,11 @@ const PortraitPrview = () => {
         const changeMainImg7= () => {
             return setStyle(widerStyle), setMainImg("Imgs/portrait3.jpg")
         }
+
+
+// Idea for background of preview
+// Right behind img bg is white
+// surrounding area has css gradients fading into #F8F0E3
 
     return (
         <>
