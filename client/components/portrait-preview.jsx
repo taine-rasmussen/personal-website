@@ -4,22 +4,46 @@ const PortraitPrview = () => {
 
 
     const [mainImg, setMainImg] = useState('Imgs/Bri1.jpg')
+    const [style, setStyle] = useState(defaultStyle)
+
+    const styles = {
+            default: {
+                height: '400px',
+                width: '300px',
+                border: '4px solid black'
+            },
+            wider: {
+                height: '400px',
+                width: '325px',
+                border: '4px solid black'
+            },
+            taller: {
+                height: '420px',
+                width: '280px',
+                border: '4px solid black'
+            }
+        }
+
+        const defaultStyle = styles.default
+        const widerStyle = styles.wider
+        const tallerStyle = styles.taller
+
 
         // If you are reading this please help me refactor this mess
         const changeMainImg1= () => {
-            return setMainImg("Imgs/Bri1.jpg")
+            return setStyle(tallerStyle), setMainImg("Imgs/Bri1.jpg")
         }
         const changeMainImg2= () => {
             return setMainImg("Imgs/Bri2.jpg")
         }
         const changeMainImg3= () => {
-            return setMainImg("Imgs/Bri3.jpg")
+            return setStyle(defaultStyle), setMainImg("Imgs/Bri3.jpg")
         }
         const changeMainImg4= () => {
             return setMainImg("Imgs/Bri4.jpg")
         }
         const changeMainImg5= () => {
-            return setMainImg("Imgs/portrait1.jpg")
+            return setStyle(widerStyle), setMainImg("Imgs/portrait1.jpg")
         }
         const changeMainImg6= () => {
             return setMainImg("Imgs/portrait2.jpg")
@@ -32,7 +56,7 @@ const PortraitPrview = () => {
         <>
             <section className='preview-container'>
                 <div className='preview-main-img-container'>
-                    <img src={mainImg} alt='portrait' className='preview-main-img' />
+                    <img src={mainImg} alt='portrait' style={style}/>
                 </div>
 
                 <div className='preview-img-stack-container'>
