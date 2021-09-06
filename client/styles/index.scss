@@ -928,7 +928,8 @@ input[type="checkbox"]{
   flex-direction: row;
   justify-content: center;
   margin-top: 1rem;
-  border: #081C15 solid 3px;
+  box-shadow: #081C15 0px 3.5px 0px 0px;
+
 }
 
 .preview-main-img-container{
@@ -937,6 +938,7 @@ input[type="checkbox"]{
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 1rem;
+  
 }
 
 .preview-img-container{

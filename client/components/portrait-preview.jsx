@@ -1,10 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const PortraitPrview = () => {
 
 
     const [mainImg, setMainImg] = useState('Imgs/Bri1.jpg')
-    const [style, setStyle] = useState(defaultStyle)
+    const [style, setStyle] = useState(tallerStyle)
+
+    // Fixes issue of init main Img not getting styling on page load
+    useEffect(() => {
+        setStyle(tallerStyle)
+      },[]);
 
     const styles = {
             default: {
@@ -15,7 +20,7 @@ const PortraitPrview = () => {
             wider: {
                 height: '400px',
                 width: '325px',
-                border: '4px solid black'
+                border: '4px solid black', 
             },
             taller: {
                 height: '420px',
@@ -34,22 +39,22 @@ const PortraitPrview = () => {
             return setStyle(tallerStyle), setMainImg("Imgs/Bri1.jpg")
         }
         const changeMainImg2= () => {
-            return setMainImg("Imgs/Bri2.jpg")
+            return setStyle(defaultStyle), setMainImg("Imgs/Bri2.jpg")
         }
         const changeMainImg3= () => {
             return setStyle(defaultStyle), setMainImg("Imgs/Bri3.jpg")
         }
         const changeMainImg4= () => {
-            return setMainImg("Imgs/Bri4.jpg")
+            return setStyle(tallerStyle), setMainImg("Imgs/Bri4.jpg")
         }
         const changeMainImg5= () => {
             return setStyle(widerStyle), setMainImg("Imgs/portrait1.jpg")
         }
         const changeMainImg6= () => {
-            return setMainImg("Imgs/portrait2.jpg")
+            return setStyle(widerStyle), setMainImg("Imgs/portrait2.jpg")
         }
         const changeMainImg7= () => {
-            return setMainImg("Imgs/portrait3.jpg")
+            return setStyle(widerStyle), setMainImg("Imgs/portrait3.jpg")
         }
 
     return (
