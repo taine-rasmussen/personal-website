@@ -924,7 +924,18 @@ input[type="checkbox"]{
 }
 
 .preview-img-stack-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.preview-main-img-container{
+  border: 5px solid Yellow;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .preview-img-container{

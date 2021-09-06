@@ -8,8 +8,8 @@ const PortraitPrview = () => {
     return (
         <>
             <section className='preview-container'>
-                <div className='preview-main-img'>
-                    <img src={mainImg} alt='portrait'/>
+                <div className='preview-main-img-container'>
+                    <img src={mainImg} alt='portrait' className='preview-main-img' />
                 </div>
 
                 <div className='preview-img-stack-container'>
