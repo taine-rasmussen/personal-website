@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 const PortraitPrview = () => {
 
 
-    const [mainImg, setMainImg] = useState(`Imgs/Bri${num}.jpg`)
+    const [mainImg, setMainImg] = useState(`Imgs/portrait${num}.jpg`)
     const [style, setStyle] = useState(tallerStyle)
     const [num, setNum] =useState(1)
 
@@ -11,7 +11,7 @@ const PortraitPrview = () => {
     useEffect(() => {
         setStyle(tallerStyle)
         setNum(1)
-        setMainImg(`Imgs/Bri${num}.jpg`)
+        setMainImg(`Imgs/portrait${num}.jpg`)
       },[]);
 
     const styles = {
@@ -38,37 +38,36 @@ const PortraitPrview = () => {
 
 
         // If you are reading this please help me refactor this mess
-        // These functions will need to update state to keep order when switching between cycle or click on imgs
+        // Current issue: first click is setting style then takes another click to change img / update num
         const changeMainImg1= () => {
-            return setStyle(tallerStyle), setMainImg("Imgs/Bri1.jpg")
+            return setStyle(tallerStyle), setNum(1), setMainImg(`Imgs/portrait${num}.jpg`)
         }
         const changeMainImg2= () => {
-            return setStyle(defaultStyle), setMainImg("Imgs/Bri2.jpg")
+            return setStyle(defaultStyle), setNum(2), setMainImg(`Imgs/portrait${num}.jpg`)
         }
         const changeMainImg3= () => {
-            return setStyle(defaultStyle), setMainImg("Imgs/Bri3.jpg")
+            return setStyle(defaultStyle), setNum(3), setMainImg(`Imgs/portrait${num}.jpg`)
         }
         const changeMainImg4= () => {
-            return setStyle(tallerStyle), setMainImg("Imgs/Bri4.jpg")
+            return setStyle(tallerStyle), setNum(4), setMainImg(`Imgs/portrait${num}.jpg`)
         }
         const changeMainImg5= () => {
-            return setStyle(widerStyle), setMainImg("Imgs/portrait1.jpg")
+            return setStyle(widerStyle), setNum(5), setMainImg(`Imgs/portrait${num}.jpg`)
         }
         const changeMainImg6= () => {
-            return setStyle(widerStyle), setMainImg("Imgs/portrait2.jpg")
+            return setStyle(widerStyle), setNum(6), setMainImg(`Imgs/portrait${num}.jpg`)
         }
         const changeMainImg7= () => {
-            return setStyle(widerStyle), setMainImg("Imgs/portrait3.jpg")
+            return setStyle(widerStyle), setNum(7), setMainImg(`Imgs/portrait${num}.jpg`)
         }
-
 
 
         // Handles mainImg cycle btns changing preview img
         const cycleMainImgLeft = () => {
-            num === 1 ? setNum(1) : setNum(num - 1), setMainImg(`Imgs/Bri${num}.jpg`) 
+            num === 1 ? setNum(1) : setNum(num - 1), setMainImg(`Imgs/portrait${num}.jpg`) 
         }
         const cycleMainImgRight = () => {
-            num === 4 ? setNum(4) : setNum(num + 1), setMainImg(`Imgs/Bri${num}.jpg`)
+            num === 7 ? setNum(7) : setNum(num + 1), setMainImg(`Imgs/portrait${num}.jpg`)
         }
         console.log('Num current state:', num)
 
@@ -92,25 +91,25 @@ const PortraitPrview = () => {
 
                 <div className='preview-img-stack-container'>
                     <div className='preview-img-container'>
-                        <img src='Imgs/Bri1.jpg' alt='portrait' className='preview-img' onClick={changeMainImg1} data-aos='fade-right' data-aos-duration={2500} data-aos-delay={150}/>
+                        <img src='Imgs/portrait1.jpg' alt='portrait' className='preview-img' onClick={changeMainImg1} data-aos='fade-right' data-aos-duration={2500} data-aos-delay={150}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/Bri2.jpg' alt='portrait' className='preview-img' onClick={changeMainImg2} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
+                        <img src='Imgs/portrait2.jpg' alt='portrait' className='preview-img' onClick={changeMainImg2} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/Bri3.jpg' alt='portrait' className='preview-img' onClick={changeMainImg3} data-aos='fade' data-aos-duration={1500} data-aos-delay={150}/>
+                        <img src='Imgs/portrait3.jpg' alt='portrait' className='preview-img' onClick={changeMainImg3} data-aos='fade' data-aos-duration={1500} data-aos-delay={150}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/Bri4.jpg' alt='portrait' className='preview-img' onClick={changeMainImg4} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
+                        <img src='Imgs/portrait4.jpg' alt='portrait' className='preview-img' onClick={changeMainImg4} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait1.jpg' alt='portrait' className='preview-img' onClick={changeMainImg5} data-aos='fade' data-aos-duration={1500} data-aos-delay={150}/>
+                        <img src='Imgs/portrait5.jpg' alt='portrait' className='preview-img' onClick={changeMainImg5} data-aos='fade' data-aos-duration={1500} data-aos-delay={150}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait2.jpg' alt='portrait' className='preview-img' onClick={changeMainImg6} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
+                        <img src='Imgs/portrait6.jpg' alt='portrait' className='preview-img' onClick={changeMainImg6} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait3.jpg' alt='portrait' className='preview-img' onClick={changeMainImg7} data-aos='fade-left' data-aos-duration={2500} data-aos-delay={150}/>
+                        <img src='Imgs/portrait7.jpg' alt='portrait' className='preview-img' onClick={changeMainImg7} data-aos='fade-left' data-aos-duration={2500} data-aos-delay={150}/>
                     </div>
                 </div>
 
