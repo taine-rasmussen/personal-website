@@ -35,7 +35,7 @@ const Portrait = () => {
 
     return(
         <>
-                      <div className='portrait-container'> 
+                <div className='portrait-container'> 
                     <div className='portrait-margin-top-container'>
                         <h1 className='portrait-header'
                             data-aos='fade-right'
