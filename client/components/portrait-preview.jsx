@@ -38,6 +38,7 @@ const PortraitPrview = () => {
 
 
         // If you are reading this please help me refactor this mess
+        // These functions will need to update state to keep order when switching between cycle or click on imgs
         const changeMainImg1= () => {
             return setStyle(tallerStyle), setMainImg("Imgs/Bri1.jpg")
         }
@@ -64,10 +65,10 @@ const PortraitPrview = () => {
 
         // Handles mainImg cycle btns changing preview img
         const cycleMainImgLeft = () => {
-            return setNum(num + 1), setMainImg(`Imgs/Bri${num}.jpg`)          
+            num === 1 ? setNum(1) : setNum(num - 1), setMainImg(`Imgs/Bri${num}.jpg`) 
         }
         const cycleMainImgRight = () => {
-            return setNum(num + 1), setMainImg(`Imgs/Bri${num}.jpg`)
+            num === 4 ? setNum(4) : setNum(num + 1), setMainImg(`Imgs/Bri${num}.jpg`)
         }
         console.log('Num current state:', num)
 
@@ -85,9 +86,8 @@ const PortraitPrview = () => {
                 <div className='preview-main-img-container'>
 
                     <button onClick={cycleMainImgLeft}>Left</button>
-                    <button onClick={cycleMainImgRight}>Right</button>
-
-                    <img src={mainImg} alt='portrait' style={style} data-aos='fade' data-aos-duration={2500} data-aos-delay={150}/>
+                        <img src={mainImg} alt='portrait' style={style} data-aos='fade' data-aos-duration={2500} data-aos-delay={150}/>
+                    <button onClick={cycleMainImgRight}>Right</button>    
                 </div>
 
                 <div className='preview-img-stack-container'>
