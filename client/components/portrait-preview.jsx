@@ -3,12 +3,15 @@ import React, { useState, useEffect } from 'react'
 const PortraitPrview = () => {
 
 
-    const [mainImg, setMainImg] = useState('Imgs/Bri1.jpg')
+    const [mainImg, setMainImg] = useState(`Imgs/Bri${num}.jpg`)
     const [style, setStyle] = useState(tallerStyle)
+    const [num, setNum] =useState(1)
 
     // Fixes issue of init main Img not getting styling on page load
     useEffect(() => {
         setStyle(tallerStyle)
+        setNum(1)
+        setMainImg(`Imgs/Bri${num}.jpg`)
       },[]);
 
     const styles = {
@@ -58,14 +61,32 @@ const PortraitPrview = () => {
         }
 
 
+
+        // Handles mainImg cycle btns changing preview img
+        const cycleMainImgLeft = () => {
+            return setNum(num + 1), setMainImg(`Imgs/Bri${num}.jpg`)          
+        }
+        const cycleMainImgRight = () => {
+            return setNum(num + 1), setMainImg(`Imgs/Bri${num}.jpg`)
+        }
+        console.log('Num current state:', num)
+
 // Idea for background of preview
 // Right behind img bg is white
 // surrounding area has css gradients fading into #F8F0E3
+
+// Try:
+// Set preview img stack to position fixed and give it a larger top margin so stack isnt moved when mainImg size changes
+// Btns to left and right of the mainImg that allow user to cycle through imgs as well - all imgs named the same, state that updates num on end - onClick moves num up or down - Concatenate
 
     return (
         <>
             <section className='preview-container'>
                 <div className='preview-main-img-container'>
+
+                    <button onClick={cycleMainImgLeft}>Left</button>
+                    <button onClick={cycleMainImgRight}>Right</button>
+
                     <img src={mainImg} alt='portrait' style={style} data-aos='fade' data-aos-duration={2500} data-aos-delay={150}/>
                 </div>
 
