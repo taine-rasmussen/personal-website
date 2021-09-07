@@ -93,36 +93,31 @@ const PortraitPrview = () => {
                 <div className='preview-main-img-container'>
 
                     <button onClick={cycleMainImgLeft}  className='left-preview-btn'><strong>V</strong></button>
-                        <img src={mainImg} alt='portrait' style={style} data-aos='fade' data-aos-duration={2500} data-aos-delay={150}/>
+                        <img src={mainImg} alt='portrait' style={style}/>
                     <button onClick={cycleMainImgRight} className='right-preview-btn'><strong>V</strong></button>    
                 </div>
 
                 <div className='preview-img-stack-container'>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait1.jpg' alt='portrait' className='preview-img' onClick={changeMainImg1} data-aos='fade-right' data-aos-duration={2500} data-aos-delay={150}/>
+                        <img src='Imgs/portrait1.jpg' alt='portrait' className='preview-img' onClick={changeMainImg1}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait2.jpg' alt='portrait' className='preview-img' onClick={changeMainImg2} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
+                        <img src='Imgs/portrait2.jpg' alt='portrait' className='preview-img' onClick={changeMainImg2}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait3.jpg' alt='portrait' className='preview-img' onClick={changeMainImg3} data-aos='fade' data-aos-duration={1500} data-aos-delay={150}/>
+                        <img src='Imgs/portrait3.jpg' alt='portrait' className='preview-img' onClick={changeMainImg3}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait4.jpg' alt='portrait' className='preview-img' onClick={changeMainImg4} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
+                        <img src='Imgs/portrait4.jpg' alt='portrait' className='preview-img' onClick={changeMainImg4}/>
                     </div>
                     <div className='preview-img-container'>
-                        {<img src='Imgs/portrait5.jpg' /* style={{
-                height: '400px',
-                width: '325px',
-                border: '4px solid #081C15'
-            }}  */
-             alt='portrait' className='preview-img' onClick={changeMainImg5} data-aos='fade' data-aos-duration={1500} data-aos-delay={150}/> }
+                        <img src='Imgs/portrait5.jpg' alt='portrait' className='preview-img' onClick={changeMainImg5}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait6.jpg' alt='portrait' className='preview-img' onClick={changeMainImg6} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
+                        <img src='Imgs/portrait6.jpg' alt='portrait' className='preview-img' onClick={changeMainImg6}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait7.jpg' alt='portrait' className='preview-img' onClick={changeMainImg7} data-aos='fade-left' data-aos-duration={2500} data-aos-delay={150}/>
+                        <img src='Imgs/portrait7.jpg' alt='portrait' className='preview-img' onClick={changeMainImg7}/>
                     </div>
                 </div>
 
