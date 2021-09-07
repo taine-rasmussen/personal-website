@@ -52,7 +52,7 @@ const PortraitPrview = () => {
             return setStyle(tallerStyle), setNum(4), setMainImg(`Imgs/portrait${num}.jpg`)
         }
         const changeMainImg5= () => {
-            return setStyle(widerStyle), setNum(5), setMainImg(`Imgs/portrait${num}.jpg`)
+            return setNum(5), setMainImg(`Imgs/portrait${num}.jpg`)
         }
         const changeMainImg6= () => {
             return setStyle(widerStyle), setNum(6), setMainImg(`Imgs/portrait${num}.jpg`)
@@ -79,6 +79,9 @@ const PortraitPrview = () => {
 // Set preview img stack to position fixed and give it a larger top margin so stack isnt moved when mainImg size changes
 // Btns to left and right of the mainImg that allow user to cycle through imgs as well - all imgs named the same, state that updates num on end - onClick moves num up or down - Concatenate
 
+// set styling with class name - somehow use !important to trigger corredct styling for when img is mainImg
+// using state: is mainImg true then apply style else default preview stack
+
     return (
         <>
             <section className='preview-container'>
@@ -103,7 +106,12 @@ const PortraitPrview = () => {
                         <img src='Imgs/portrait4.jpg' alt='portrait' className='preview-img' onClick={changeMainImg4} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
                     </div>
                     <div className='preview-img-container'>
-                        <img src='Imgs/portrait5.jpg' alt='portrait' className='preview-img' onClick={changeMainImg5} data-aos='fade' data-aos-duration={1500} data-aos-delay={150}/>
+                        {<img src='Imgs/portrait5.jpg' /* style={{
+                height: '400px',
+                width: '325px',
+                border: '4px solid #081C15'
+            }}  */
+             alt='portrait' className='preview-img' onClick={changeMainImg5} data-aos='fade' data-aos-duration={1500} data-aos-delay={150}/> }
                     </div>
                     <div className='preview-img-container'>
                         <img src='Imgs/portrait6.jpg' alt='portrait' className='preview-img' onClick={changeMainImg6} data-aos='fade' data-aos-duration={2000} data-aos-delay={150}/>
