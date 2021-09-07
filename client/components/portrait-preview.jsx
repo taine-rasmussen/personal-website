@@ -3,12 +3,15 @@ import React, { useState, useEffect } from 'react'
 const PortraitPrview = () => {
 
 
-    const [mainImg, setMainImg] = useState('Imgs/Bri1.jpg')
+    const [mainImg, setMainImg] = useState(`Imgs/Bri${num}.jpg`)
     const [style, setStyle] = useState(tallerStyle)
+    const [num, setNum] =useState(1)
 
     // Fixes issue of init main Img not getting styling on page load
     useEffect(() => {
         setStyle(tallerStyle)
+        setNum(1)
+        setMainImg(`Imgs/Bri${num}.jpg`)
       },[]);
 
     const styles = {
@@ -35,6 +38,7 @@ const PortraitPrview = () => {
 
 
         // If you are reading this please help me refactor this mess
+        // These functions will need to update state to keep order when switching between cycle or click on imgs
         const changeMainImg1= () => {
             return setStyle(tallerStyle), setMainImg("Imgs/Bri1.jpg")
         }
@@ -58,15 +62,32 @@ const PortraitPrview = () => {
         }
 
 
+
+        // Handles mainImg cycle btns changing preview img
+        const cycleMainImgLeft = () => {
+            num === 1 ? setNum(1) : setNum(num - 1), setMainImg(`Imgs/Bri${num}.jpg`) 
+        }
+        const cycleMainImgRight = () => {
+            num === 4 ? setNum(4) : setNum(num + 1), setMainImg(`Imgs/Bri${num}.jpg`)
+        }
+        console.log('Num current state:', num)
+
 // Idea for background of preview
 // Right behind img bg is white
 // surrounding area has css gradients fading into #F8F0E3
+
+// Try:
+// Set preview img stack to position fixed and give it a larger top margin so stack isnt moved when mainImg size changes
+// Btns to left and right of the mainImg that allow user to cycle through imgs as well - all imgs named the same, state that updates num on end - onClick moves num up or down - Concatenate
 
     return (
         <>
             <section className='preview-container'>
                 <div className='preview-main-img-container'>
-                    <img src={mainImg} alt='portrait' style={style} data-aos='fade' data-aos-duration={2500} data-aos-delay={150}/>
+
+                    <button onClick={cycleMainImgLeft}>Left</button>
+                        <img src={mainImg} alt='portrait' style={style} data-aos='fade' data-aos-duration={2500} data-aos-delay={150}/>
+                    <button onClick={cycleMainImgRight}>Right</button>    
                 </div>
 
                 <div className='preview-img-stack-container'>
