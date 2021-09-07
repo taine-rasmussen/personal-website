@@ -15,17 +15,17 @@ const Photo = () => {
                         <div className='photo-portrait-container container'>
                             <Link to='portrait'>
                                 <h2 className='photo-sub-header' data-aos='fade-up' data-aos-duration={1500} data-aos-delay={100}><span>Portrait</span></h2>
-                                <img src='Imgs/Bri1.jpg' alt='portrait of women' className='preview-photo'/>
-                                <img src='Imgs/portrait3.jpg' alt='portrait of women' className=' second-photo' />
+                                <img src='Imgs/portrait6.jpg' alt='portrait of women' className='preview-photo'/>
+                                <img src='Imgs/portrait1.jpg' alt='portrait of women' className=' second-photo' />
                                 <img src='Imgs/portrait2.jpg' alt='portrait of women' className=' third-photo' />
                             </Link>
                         </div>
                         <div className='photo-street-container'>
                             <Link to='street'>
                                 <h2 className='photo-sub-header right' data-aos='fade-up' data-aos-duration={1500} data-aos-delay={100}><span>Street</span></h2>
-                                <img src='Imgs/travel3.jpg' alt='portrait of women' className='preview-photo'/>
+                                <img src='Imgs/street5.jpg' alt='portrait of women' className='preview-photo'/>
                                 <img src='Imgs/street1.jpg' alt='portrait of women' className=' second-photo' />
-                                <img src='Imgs/travel2.jpg' alt='portrait of women' className=' third-photo' />
+                                <img src='Imgs/street4.jpg' alt='portrait of women' className=' third-photo' />
                             </Link>
                         </div>
                     </div>    

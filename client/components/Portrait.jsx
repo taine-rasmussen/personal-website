@@ -9,14 +9,14 @@ import PortraitPreview from './portrait-preview'
 const Portrait = () => {
 
     const [view, setView] = useState(true)
-    const [header, setHeader] = useState('Portrait Preview')
+    const [header, setHeader] = useState('Portrait Gallery')
 
     const Gallery = 'Portrait Gallery'
     const Preview = 'Portrait Preview'
 
         // Handles changing page header to match gallery or preview
         const changeHeader = () => {
-            header === Gallery ? setHeader(Preview) : setHeader(Gallery)
+            header === Preview ? setHeader(Gallery) : setHeader(Preview)
         }
         
         // Handling state change on btn click
@@ -35,12 +35,13 @@ const Portrait = () => {
 
     return(
         <>
-                      <div className='portrait-container'> 
+                <div className='portrait-container'> 
                     <div className='portrait-margin-top-container'>
                         <h1 className='portrait-header'
                             data-aos='fade-right'
                             data-aos-duration={1500}
-                            data-aos-delay={100}>{header}</h1>
+                            data-aos-delay={100}>{header}
+                        </h1>
 
                             <div className='portrait-sub-header-container'
                                  data-aos='fade'
@@ -51,7 +52,8 @@ const Portrait = () => {
                                         <h2 className='portrait-sub-header'
                                             data-aos='fade-left'
                                             data-aos-duration={1500}
-                                            data-aos-delay={100}>Home</h2>
+                                            data-aos-delay={100}>Home
+                                        </h2>
                                     </Link>
                                 </div>
                                 <div className='portrait-right-side'>
@@ -59,7 +61,8 @@ const Portrait = () => {
                                         <h2 className='portrait-sub-header'
                                             data-aos='fade-right'
                                             data-aos-duration={1500}
-                                            data-aos-delay={100}>Street</h2>
+                                            data-aos-delay={100}>Street
+                                        </h2>
                                     </Link>
                                 </div>
                             </div>
@@ -76,7 +79,7 @@ const Portrait = () => {
                 </div>
 
             <div className='portrait-photos-container border'>
-                {view ? <PortraitPreview /> : <PortraitGallery />}
+                {view ? <PortraitGallery /> : <PortraitPreview />}
             </div>
         </>
     )
