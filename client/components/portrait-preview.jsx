@@ -25,6 +25,11 @@ const PortraitPrview = () => {
                 width: '325px',
                 border: '4px solid #081C15', 
             },
+            landscape: {
+                height: '400px',
+                width: '600px',
+                border: '4px solid #081C15'
+            },
             taller: {
                 height: '420px',
                 width: '280px',
