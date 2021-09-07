@@ -6,25 +6,25 @@ const PortraitGallery = () => {
         <>
              <div className='gallery-container'>
                 <div className='gallery-img-container'>
-                    <img src='/Imgs/Bri1.jpg' alt='' className='gallery-portrait portrait' />
+                    <img src='/Imgs/portrait1.jpg' alt='' className='gallery-portrait portrait' />
                 </div>
                 <div className='gallery-img-container'>
-                    <img src='/Imgs/Bri2.jpg' alt='' className='gallery-portrait'/>
+                    <img src='/Imgs/portrait2.jpg' alt='' className='gallery-portrait'/>
                 </div>
                 <div className='gallery-img-container'>
-                    <img src='/Imgs/Bri3.jpg' alt='' className='gallery-portrait'/>
+                    <img src='/Imgs/portrait3.jpg' alt='' className='gallery-portrait'/>
                 </div>
                 <div className='gallery-img-container'>
-                    <img src='/Imgs/Bri4.jpg' alt='' className='gallery-portrait'/>
+                    <img src='/Imgs/portrait4.jpg' alt='' className='gallery-portrait'/>
                 </div>
                 <div className='gallery-img-container'>
-                    <img src='/Imgs/portrait1.jpg' alt='' className='gallery-portrait gallery-wider'/>
+                    <img src='/Imgs/portrait5.jpg' alt='' className='gallery-portrait gallery-wider'/>
                 </div>
                 <div className='gallery-img-container'>
-                    <img src='/Imgs/portrait2.jpg' alt='' className='gallery-portrait gallery-taller'/>
+                    <img src='/Imgs/portrait6.jpg' alt='' className='gallery-portrait gallery-taller'/>
                 </div>
                 <div className='gallery-img-container'>
-                    <img src='/Imgs/portrait3.jpg' alt='' className='gallery-portrait gallery-wider'/>
+                    <img src='/Imgs/portrait7.jpg' alt='' className='gallery-portrait gallery-wider'/>
                 </div>
             </div>
         </>
