@@ -87,9 +87,9 @@ const PortraitPrview = () => {
             <section className='preview-container'>
                 <div className='preview-main-img-container'>
 
-                    <button onClick={cycleMainImgLeft}>Left</button>
+                    <button onClick={cycleMainImgLeft}  className='left-preview-btn'><strong>V</strong></button>
                         <img src={mainImg} alt='portrait' style={style} data-aos='fade' data-aos-duration={2500} data-aos-delay={150}/>
-                    <button onClick={cycleMainImgRight}>Right</button>    
+                    <button onClick={cycleMainImgRight} className='right-preview-btn'><strong>V</strong></button>    
                 </div>
 
                 <div className='preview-img-stack-container'>
