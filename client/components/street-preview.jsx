@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Streetpreview = () => {
 
@@ -26,7 +26,7 @@ const Streetpreview = () => {
             },
             landscape: {
                 height: '400px',
-                width: '300px',
+                width: '600px',
                 border: '4px solid #081C15'
             },
             taller: {
@@ -37,8 +37,8 @@ const Streetpreview = () => {
         }
 
         const defaultStyle = styles.default
-        const widerStyle = styles.wider
         const tallerStyle = styles.taller
+        const landscapeStyle = styles.landscape
 
 
         // If you are reading this please help me refactor this mess
@@ -47,31 +47,29 @@ const Streetpreview = () => {
             return setStyle(tallerStyle), setNum(1), setMainImg(`Imgs/street${num}.jpg`)
         }
         const changeMainImg2= () => {
-            return setStyle(defaultStyle), setNum(2), setMainImg(`Imgs/street${num}.jpg`)
+            return setStyle(tallerStyle), setNum(2), setMainImg(`Imgs/street${num}.jpg`)
         }
         const changeMainImg3= () => {
-            return setStyle(defaultStyle), setNum(3), setMainImg(`Imgs/street${num}.jpg`)
+            return setStyle(landscapeStyle), setNum(3), setMainImg(`Imgs/street${num}.jpg`)
         }
         const changeMainImg4= () => {
             return setStyle(tallerStyle), setNum(4), setMainImg(`Imgs/street${num}.jpg`)
         }
         const changeMainImg5= () => {
-            return setNum(5), setMainImg(`Imgs/street${num}.jpg`)
+            return setStyle(tallerStyle), setNum(5), setMainImg(`Imgs/street${num}.jpg`)
         }
         const changeMainImg6= () => {
-            return setStyle(widerStyle), setNum(6), setMainImg(`Imgs/street${num}.jpg`)
+            return setStyle(landscapeStyle), setNum(6), setMainImg(`Imgs/street${num}.jpg`)
         }
-        const changeMainImg7= () => {
-            return setStyle(widerStyle), setNum(7), setMainImg(`Imgs/street${num}.jpg`)
-        }
+      
 
 
         // Handles mainImg cycle btns changing preview img
         const cycleMainImgLeft = () => {
-            num === 1 ? setNum(1) : setNum(num - 1), setMainImg(`Imgs/street${num}.jpg`) 
+           return num === 1 ? setNum(1) : setNum(num - 1), setMainImg(`Imgs/street${num}.jpg`) 
         }
         const cycleMainImgRight = () => {
-            num === 7 ? setNum(7) : setNum(num + 1), setMainImg(`Imgs/street${num}.jpg`)
+           return  num === 7 ? setNum(6) : setNum(num + 1), setMainImg(`Imgs/street${num}.jpg`)
         }
         console.log('Num current state:', num)
 
