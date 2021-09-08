@@ -42,7 +42,7 @@ const Streetpreview = () => {
 
 
         // If you are reading this please help me refactor this mess
-        // Current issue: first click is setting style then takes another click to change img / update num
+        // Current issue: first click is setting style then takes another click to change img 
         const changeMainImg1= () => {
             return setStyle(tallerStyle), setNum(1), setMainImg(`Imgs/street${num}.jpg`)
         }
