@@ -64,14 +64,14 @@ const Streetpreview = () => {
       
 
 
-        // Handles mainImg cycle btns changing preview img 
-        const cycleMainImgLeft = () => {
-           return num === 1 ? setNum(1) : setNum(num - 1), setMainImg(`Imgs/street${num}.jpg`) 
-        }
-        const cycleMainImgRight = () => {
-           return  num === 7 ? setNum(6) : setNum(num + 1), setMainImg(`Imgs/street${num}.jpg`)
-        }
-        console.log('Num current state:', num)
+        // Handles mainImg cycle btns changing preview img - commented out for deploy
+        // const cycleMainImgLeft = () => {
+        //    return num === 1 ? setNum(1) : setNum(num - 1), setMainImg(`Imgs/street${num}.jpg`) 
+        // }
+        // const cycleMainImgRight = () => {
+        //    return  num === 7 ? setNum(6) : setNum(num + 1), setMainImg(`Imgs/street${num}.jpg`)
+        // }
+        // console.log('Num current state:', num)
 
 
 // Idea for background of preview
@@ -90,9 +90,9 @@ const Streetpreview = () => {
             <section className='preview-container'>
                 <div className='preview-main-img-container'>
 
-                    <button onClick={cycleMainImgLeft}  className='left-preview-btn'><strong>V</strong></button>
+                    {/* <button onClick={cycleMainImgLeft}  className='left-preview-btn'><strong>V</strong></button> */}
                         <img src={mainImg} alt='portrait' style={style}/>
-                    <button onClick={cycleMainImgRight} className='right-preview-btn'><strong>V</strong></button>    
+                    {/* <button onClick={cycleMainImgRight} className='right-preview-btn'><strong>V</strong></button>     */}
                 </div>
 
                 <div className='preview-img-stack-container'>
