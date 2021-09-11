@@ -272,19 +272,19 @@ $ani-delay: 1s;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100vw;
-    height: 100vh;
+    margin-left: -10rem;
   }
 }
 @media only screen and (max-width: 500px) {
   .about-right-text{
-
-
+    font-size: 0.3rem;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 500px) {
   .about-left-text{
-
+    font-size: 0.3rem;
+    width: 100vw;
   }
 }
 
