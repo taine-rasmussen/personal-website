@@ -73,8 +73,8 @@ const Portrait = () => {
                                  data-aos-delay={50}>
                                 <input type="checkbox" id="toggle" onClick={changeView}/>
                                 <label htmlFor="toggle" className='portrait-label'></label>
-                                <h3 className='portrait-toggle-header'>Toggle View</h3>
                             </div>
+                            <h3 className='portrait-toggle-header'>Toggle View</h3>
                     </div>
                 </div>
 

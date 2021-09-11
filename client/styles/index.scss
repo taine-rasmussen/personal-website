@@ -870,18 +870,21 @@ margin: 1rem;
 
 .portrait-toggle-container{
   border-left: 5px solid #081C15;
-  margin-left: 72rem;
-  height: 135px;
-  padding-left: 120px;
+  margin-left: 75rem;
+  margin-bottom: 2rem;
+  height: 100px;
+  padding-left: 95px;
   position: fixed;
+  padding-top: 35px;
 }
 
 .portrait-toggle-header{
   font-style: italic;
   font-size: 1.2rem;
-  margin-top: 2rem;
-  margin-left: -1.2rem;
-  padding-top: 0px;
+  margin-left: 80rem;
+  margin-top: 5.5rem;
+  position: fixed;
+  text-shadow: #40916C 0.2px 0.2px 0;
 }
 
 .border{
