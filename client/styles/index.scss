@@ -214,6 +214,7 @@ $ani-delay: 1s;
   margin-bottom: -16rem;
 }
 
+
 // ---- About ----
 // ---- Photo ----
 
@@ -226,8 +227,10 @@ $ani-delay: 1s;
 
 
 .photo-header{
-  margin-left: 55px;
-  margin-top: -0.5rem;
+  margin-left: 22rem;
+  margin-top: -1rem;
+  font-size: 6.5rem;
+
 }
 
 .photo-blurb{
@@ -579,6 +582,8 @@ $ani-delay: 1s;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+  margin-left: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .pulsate-bck {
@@ -709,17 +714,19 @@ html {
   border-left: 5px solid #081C15;
   margin-left: 75rem;
   margin-bottom: 2rem;
-  height: 135px;
-  padding-left: 90px;
+  height: 100px;
+  padding-left: 95px;
   position: fixed;
+  padding-top: 35px;
 }
 
 .street-toggle-header{
   font-style: italic;
   font-size: 1.2rem;
-  margin-top: 2rem;
-  margin-left: -1.2rem;
-  padding-top: 0px;
+  margin-left: 80rem;
+  margin-top: 5.5rem;
+  position: fixed;
+  text-shadow: #40916C 0.2px 0.2px 0;
 }
 
 .border{
@@ -863,18 +870,21 @@ margin: 1rem;
 
 .portrait-toggle-container{
   border-left: 5px solid #081C15;
-  margin-left: 72rem;
-  height: 135px;
-  padding-left: 120px;
+  margin-left: 75rem;
+  margin-bottom: 2rem;
+  height: 100px;
+  padding-left: 95px;
   position: fixed;
+  padding-top: 35px;
 }
 
 .portrait-toggle-header{
   font-style: italic;
   font-size: 1.2rem;
-  margin-top: 2rem;
-  margin-left: -1.2rem;
-  padding-top: 0px;
+  margin-left: 80rem;
+  margin-top: 5.5rem;
+  position: fixed;
+  text-shadow: #40916C 0.2px 0.2px 0;
 }
 
 .border{

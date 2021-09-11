@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const Photo = () => {
 
     return (
-        <>
+        <div>
             <section className='photo-container'>
-                <h1 className='photo-header postioned-top-left' data-aos='fade-right' data-aos-duration={1500} data-aos-delay={100}>Photography</h1>
+                <h1 className='photo-header postioned-top-left' data-aos='fade-left' data-aos-duration={1500} data-aos-delay={100}>Photography</h1>
                     {/* <p className='photo-blurb' data-aos='fade' data-aos-duration={2000} data-aos-delay={750}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae ipsam in, corporis similique fugit totam molestias tempora tempore rerum animi. Alias id distinctio voluptatibus illum commodi qui laborum. Quam!
                     </p> */}
@@ -30,7 +30,7 @@ const Photo = () => {
                         </div>
                     </div>    
             </section>
-        </>
+        </div>
     )
 }
 
