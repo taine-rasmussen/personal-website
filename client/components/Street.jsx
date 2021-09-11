@@ -88,8 +88,8 @@ const Street = () => {
                                  data-aos-delay={50}>
                                 <input type="checkbox" id="toggle" onClick={changeView}/>
                                 <label htmlFor="toggle" className='street-label'></label>
-                                <h3 className='street-toggle-header'>Toggle View</h3>
                             </div>
+                            <h3 className='street-toggle-header'>Toggle View</h3>
                     </div>
                 </div>
 
