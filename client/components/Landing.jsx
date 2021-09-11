@@ -9,8 +9,8 @@ const Landing = () => {
             <section className='landing-container'>
                 <div className='landing-header-container' data-aos='fade-down' data-aos-duration={2000} data-aos-delay={150}>
                     <h1 className='green'>Taine Rasmussen</h1>
-                    <h3 className='landing-subheader'>Full Stack Software Developer & Photographer</h3>
                 </div>
+                    <h3 className='landing-subheader' data-aos='fade-down' data-aos-duration={2000} data-aos-delay={150}>Full Stack Software Developer & Photographer</h3>
 
                 <Link to='About' smooth={true} duration={2000}>
                     <div className='landing-arrow-container'>
