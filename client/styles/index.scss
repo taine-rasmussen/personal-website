@@ -91,14 +91,16 @@ a:visited {
 @media only screen and (max-width: 600px) {
   .landing-header-container{
     margin-left: 4.5rem;
+    margin-bottom: 200px;
   }
 }
 @media only screen and (max-width: 600px) {
   .landing-subheader{
-    border: 3px solid black;
-
+    padding-top: 65px;
+    padding-right: 40px;
   }
 }
+
 
 
 .landing-header-conatiner{
