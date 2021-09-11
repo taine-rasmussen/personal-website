@@ -88,6 +88,18 @@ a:visited {
   display: flex;
   justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+  .landing-header-container{
+    margin-left: 4.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .landing-subheader{
+    border: 3px solid black;
+
+  }
+}
+
 
 .landing-header-conatiner{
   display: flex;
@@ -103,8 +115,8 @@ a:visited {
 .landing-subheader{
   font-style: italic;
   font-size: 1rem;
-  margin-left: 8rem;
-  margin-top: -3rem;
+  margin-top: 22.5rem;
+  position: absolute;
   color: #081C15;
 }
 
