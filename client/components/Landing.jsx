@@ -19,6 +19,8 @@ const Landing = () => {
                     </div>
                 </Link>    
             </section>
+
+            <img src='Imgs/about-landing-merge.svg' alt='background image' className='landing-merge'/>
         </>
     )
 }
