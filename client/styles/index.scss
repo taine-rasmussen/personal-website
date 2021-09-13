@@ -417,6 +417,12 @@ $ani-delay: 1s;
   text-shadow: #081C15 2px 2px 1px;
 }
 
+
+.photo-merge{
+  z-index: -2;
+  margin-bottom: -30rem;
+}
+
 // ---- Photo ----
 // ---- portrait & street ----
 .portrait-container{
@@ -461,6 +467,7 @@ $ani-delay: 1s;
   max-width: 100vw;
   justify-content: center;
   margin-bottom: 15rem;
+  z-index: 9999;
 }
 
 

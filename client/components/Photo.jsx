@@ -30,6 +30,7 @@ const Photo = () => {
                         </div>
                     </div>    
             </section>
+            <img src='Imgs/photo-tech-merge.svg' alt='background image' className='photo-merge'/>
         </div>
     )
 }
