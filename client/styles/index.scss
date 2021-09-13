@@ -497,6 +497,7 @@ $ani-delay: 1s;
   margin: 5vw;
   margin-top: 2rem;
   margin-bottom: 13rem;
+  z-index: 9999;
 }
 
 .tech-label-single{
@@ -541,7 +542,8 @@ $ani-delay: 1s;
 }
 
 .tech-merge{
-  z-index: -2;
+  z-index: -9999;
+  margin-top: -45rem;
 }
 
 
