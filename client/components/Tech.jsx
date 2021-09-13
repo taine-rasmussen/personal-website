@@ -108,6 +108,8 @@ const Tech = () => {
                         </a>
                 </div>
             </section>
+
+            <img src='Imgs/tech-contact-merge.svg' alt='background image' className='tech-merge'/>
         </>
     )
 }
