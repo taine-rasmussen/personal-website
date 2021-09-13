@@ -24,6 +24,8 @@ const About = () => {
                         </div>
                     </div>
                 </section>
+
+                <img src='Imgs/about-photo-merge.svg' alt='background image' className='about-merge'/>
         </div>
     )
 }

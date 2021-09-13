@@ -206,6 +206,11 @@ $ani-delay: 1s;
 // ---- Landing ----
 // ---- About ----
 
+.about-merge{
+  z-index: -2;
+  margin-top: -8rem;
+}
+
 .about-container{
   background-color: #1B4332;
   height: 70vh;
@@ -214,7 +219,6 @@ $ani-delay: 1s;
   flex-direction: row;
   flex-wrap: wrap;
   z-index: 9999;
-  border: 2px solid #081C15;
 }
 
 
