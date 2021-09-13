@@ -540,6 +540,9 @@ $ani-delay: 1s;
   }
 }
 
+.tech-merge{
+  z-index: -2;
+}
 
 
 // ---- Tech ----
@@ -550,8 +553,9 @@ $ani-delay: 1s;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-   background-color: #F8F0E3;
-   margin-top: -15rem;
+  background-color: #F8F0E3;
+  margin-top: -15rem;
+  z-index: 9999;
 }
 
 .contact-container{
